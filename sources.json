@@ -1,18 +1,12 @@
 {
  "_doel": "Publieke RSS/Atom-feeds van institutionele newsrooms — wekelijkse snapshot-input.",
  "_sync": "Afgeleid van Weekly_Scans/bronnen.json (alleen type rss/atom, actief). Bij bron-wijzigingen dit bestand opnieuw genereren.",
- "gegenereerd_op": "2026-06-09",
+ "gegenereerd_op": "2026-06-10",
  "feeds": [
   {
    "id": "EUROPOL-NEWS",
    "type": "rss",
    "url": "https://www.europol.europa.eu/cms/api/rss/news",
-   "lang": "en"
-  },
-  {
-   "id": "EUROPOL-PUB",
-   "type": "rss",
-   "url": "https://www.europol.europa.eu/cms/api/rss/publications",
    "lang": "en"
   },
   {
@@ -54,19 +48,19 @@
   {
    "id": "RIJKSOVERHEID-FIN",
    "type": "rss",
-   "url": "https://feeds.rijksoverheid.nl/ministeries/ministerie-van-financien/nieuws.rss",
+   "url": "https://www.rijksoverheid.nl/api/rss?query=%7B%22filters%22%3A%5B%7B%22field%22%3A%22content_type%22%2C%22values%22%3A%5B%22pro%3AnewsDocument%22%5D%2C%22type%22%3A%22all%22%7D%2C%7B%22field%22%3A%22ministry%22%2C%22values%22%3A%5B%22Ministerie%20van%20Financi%C3%ABn%22%5D%2C%22type%22%3A%22all%22%7D%5D%2C%22resultSearchTerm%22%3A%22%22%7D",
    "lang": "nl"
   },
   {
    "id": "RIJKSOVERHEID-JenV",
    "type": "rss",
-   "url": "https://feeds.rijksoverheid.nl/ministeries/ministerie-van-justitie-en-veiligheid/nieuws.rss",
+   "url": "https://www.rijksoverheid.nl/api/rss?query=%7B%22filters%22%3A%5B%7B%22field%22%3A%22content_type%22%2C%22values%22%3A%5B%22pro%3AnewsDocument%22%5D%2C%22type%22%3A%22all%22%7D%2C%7B%22field%22%3A%22ministry%22%2C%22values%22%3A%5B%22Ministerie%20van%20Justitie%20en%20Veiligheid%22%5D%2C%22type%22%3A%22all%22%7D%5D%2C%22resultSearchTerm%22%3A%22%22%7D",
    "lang": "nl"
   },
   {
    "id": "OM-NL",
    "type": "rss",
-   "url": "https://www.om.nl/actueel/nieuws/rss",
+   "url": "https://www.om.nl/api/rss?query=%7B%22filters%22%3A%5B%7B%22field%22%3A%22content_type%22%2C%22values%22%3A%5B%22pro%3AnewsDocument%22%5D%2C%22type%22%3A%22all%22%7D%5D%2C%22resultSearchTerm%22%3A%22%22%7D",
    "lang": "nl"
   },
   {
