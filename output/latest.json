@@ -1,25 +1,25 @@
 {
  "week": "2026-W24",
- "gegenereerd_op": "2026-06-09T21:35:09Z",
+ "gegenereerd_op": "2026-06-09T21:52:12Z",
  "venster_dagen": 9,
  "cutoff": "2026-05-31",
- "n_feeds": 34,
- "n_ok": 12,
- "n_error": 21,
- "n_items_totaal": 53,
+ "n_feeds": 27,
+ "n_ok": 16,
+ "n_error": 11,
+ "n_items_totaal": 90,
  "bronnen": [
   {
    "id": "EUROPOL-NEWS",
-   "url": "https://www.europol.europa.eu/rss-feed/newsroom",
-   "status": "error",
+   "url": "https://www.europol.europa.eu/cms/api/rss/news",
+   "status": "ok",
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "HTTP Error 404: Not Found"
+   "fout": null
   },
   {
    "id": "EUROPOL-PUB",
-   "url": "https://www.europol.europa.eu/rss-feed/publications",
+   "url": "https://www.europol.europa.eu/cms/api/rss/publications",
    "status": "error",
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
@@ -55,12 +55,37 @@
   },
   {
    "id": "EBA-NEWS",
-   "url": "https://www.eba.europa.eu/news-press/news",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "HTTP Error 404: Not Found"
+   "url": "https://www.eba.europa.eu/news-press/news/rss.xml",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-06-08",
+   "n_in_window": 4,
+   "items": [
+    {
+     "titel": "​The EBA launches Discussion Paper on Pillar 3 Data Hub for small banks",
+     "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-launches-discussion-paper-pillar-3-data-hub-small-banks",
+     "datum": "2026-06-08",
+     "samenvatting": "​The European Banking Authority (EBA) today published a Discussion Paper which proposes a simplified process for small and non-complex institutions (SNCIs) when implementing the Pillar 3 Data Hub (P3DH). The objective is to gather stakeholder feedback on a streamlined approach under which the EBA wo"
+    },
+    {
+     "titel": "ESAs publish the first report on DORA major ICT-related incidents",
+     "url": "https://www.eba.europa.eu/publications-and-media/press-releases/esas-publish-first-report-dora-major-ict-related-incidents",
+     "datum": "2026-06-03",
+     "samenvatting": "The European Supervisory Authorities (EBA, EIOPA and ESMA) today published their first annual overview of major ICT-related incidents in the EU financial sector based on a reporting mechanism established by the Digital Operational Resilience Act (DORA). It shows that ICT risks are increasingly borde"
+    },
+    {
+     "titel": "​The EBA and the New York State Department of Financial Services sign a Memorandum of Understanding to foster cooperation in the supervision of international stablecoin activities",
+     "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-and-new-york-state-department-financial-services-sign-memorandum-understanding-foster",
+     "datum": "2026-06-02",
+     "samenvatting": "​The European Banking Authority (EBA) has signed a Memorandum of Understanding (MoU) with the New York State Department of Financial Services (NYDFS) under the Markets in Crypto-Assets Regulation (MiCA). The agreement aims to strengthen cooperation in the supervision of entities engaged in cross-bor"
+    },
+    {
+     "titel": "​The EBA updates list of other systemically important institutions",
+     "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-updates-list-other-systemically-important-institutions-2",
+     "datum": "2026-06-02",
+     "samenvatting": "​The European Banking Authority (EBA) today updated the list of other systemically important institutions (O-SIIs) in the EU, based on notifications received from national authorities during 2025. The publication aims to increase transparency and provides a consistent overview of institutions identi"
+    }
+   ],
+   "fout": null
   },
   {
    "id": "ECB-NEWS",
@@ -137,43 +162,25 @@
   },
   {
    "id": "RIJKSOVERHEID-FIN",
-   "url": "https://www.rijksoverheid.nl/ministeries/ministerie-van-financien/nieuws.rss",
+   "url": "https://feeds.rijksoverheid.nl/ministeries/ministerie-van-financien/nieuws.rss",
    "status": "error",
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "HTTP Error 404: Not Found"
+   "fout": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "id": "RIJKSOVERHEID-JenV",
-   "url": "https://www.rijksoverheid.nl/ministeries/ministerie-van-justitie-en-veiligheid/nieuws.rss",
+   "url": "https://feeds.rijksoverheid.nl/ministeries/ministerie-van-justitie-en-veiligheid/nieuws.rss",
    "status": "error",
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "HTTP Error 404: Not Found"
+   "fout": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "id": "OM-NL",
-   "url": "https://www.om.nl/actueel/nieuws/rss.xml",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "HTTP Error 404: Not Found"
-  },
-  {
-   "id": "OFAC-ACTIONS",
-   "url": "https://ofac.treasury.gov/media/913041/download?inline",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "HTTP Error 404: Not Found"
-  },
-  {
-   "id": "FINCEN-NEWS",
-   "url": "https://www.fincen.gov/news-releases.rss",
+   "url": "https://www.om.nl/actueel/nieuws/rss",
    "status": "error",
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
@@ -187,7 +194,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "HTTP Error 403: Forbidden"
+   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "FCA-NEWS",
@@ -200,12 +207,19 @@
   },
   {
    "id": "BAFIN-EN",
-   "url": "https://www.bafin.de/SiteGlobals/Functions/RSSFeed/EN/RSSNewsroom/RSSNewsroom.xml",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "HTTP Error 404: Not Found"
+   "url": "https://www.bafin.de/EN/service/rss/_function/rssnewsfeed.xml",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-05-31",
+   "n_in_window": 1,
+   "items": [
+    {
+     "titel": "Bafin's Organisation chart",
+     "url": "https://www.bafin.de/SharedDocs/Downloads/EN/Liste/dl_organigramm_en.html",
+     "datum": "2026-05-31",
+     "samenvatting": "Organisation chart of the Federal Financial Supervisory Authority"
+    }
+   ],
+   "fout": null
   },
   {
    "id": "OFSI-UK",
@@ -224,15 +238,6 @@
    "fout": null
   },
   {
-   "id": "TI-NEWS",
-   "url": "https://www.transparency.org/en/press.rss",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "HTTP Error 404: Not Found"
-  },
-  {
    "id": "GFI",
    "url": "https://gfintegrity.org/feed/",
    "status": "ok",
@@ -243,12 +248,145 @@
   },
   {
    "id": "OCCRP",
-   "url": "https://www.occrp.org/en/daily.rss",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "HTTP Error 404: Not Found"
+   "url": "https://www.occrp.org/en/feed",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-06-09",
+   "n_in_window": 22,
+   "items": [
+    {
+     "titel": "European Prosecutors Seize Assets in Italian Subsidy Fraud Probe",
+     "url": "https://www.occrp.org/en/news/european-prosecutors-seize-assets-in-italian-subsidy-fraud-probe",
+     "datum": "2026-06-09",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Egyptian Tycoon Detained in Organized Crime Probe",
+     "url": "https://www.occrp.org/en/news/egyptian-tycoon-detained-in-organized-crime-probe",
+     "datum": "2026-06-09",
+     "samenvatting": ""
+    },
+    {
+     "titel": "A $57 Billion Toll: How Evolving Scams Are Fleecing Europe",
+     "url": "https://www.occrp.org/en/news/a-57-billion-toll-how-evolving-scams-are-fleecing-europe",
+     "datum": "2026-06-09",
+     "samenvatting": "A new report reveals that criminal networks are rapidly adapting to new technologies, including artificial intelligence, siphoning billions from victims while the vast majority of crimes go unreported."
+    },
+    {
+     "titel": "Hungarian Prosecutors Vow Action on Graft Claims, but Target Anti-Corruption Chief",
+     "url": "https://www.occrp.org/en/news/hungarian-prosecutors-vow-action-on-graft-claims-but-target-anti-corruption-chief",
+     "datum": "2026-06-09",
+     "samenvatting": "The national anti-corruption watchdog alleges billions were misappropriated during the Orbán era, but prosecutors revealed to OCCRP that the watchdog’s president is himself facing criminal charges."
+    },
+    {
+     "titel": "U.K. Targets $68M in Properties Owned by China-Born Man with Multiple Citizenships",
+     "url": "https://www.occrp.org/en/news/uk-targets-68m-in-properties-owned-by-china-born-man-with-multiple-citizenships",
+     "datum": "2026-06-09",
+     "samenvatting": "Britain's land registry shows requests for freezing order on luxury properties owned by Yuan Yihua, who holds so-called “golden passports” issued in return for investments in Cyprus, Cambodia and Vanuatu."
+    },
+    {
+     "titel": "Eyes On The Crew: The Russian Watchmen Aboard Moscow's Sanctioned ‘Shadow Fleet’ Tankers",
+     "url": "https://www.occrp.org/en/investigation/eyes-on-the-crew-the-russian-watchmen-aboard-moscows-sanctioned-shadow-fleet-tankers",
+     "datum": "2026-06-09",
+     "samenvatting": "Dozens of men with security backgrounds have been quietly sailing alongside the standard crews on the tankers carrying sanctioned Russian oil. Now, reporters speak to some of these \"watchmen\" firsthand to learn about their roles on board."
+    },
+    {
+     "titel": "EU Sanctions Iranian Officials and Revolutionary Guard Unit Over Maritime Disruptions",
+     "url": "https://www.occrp.org/en/news/eu-sanctions-iranian-officials-and-revolutionary-guard-unit-over-maritime-disruptions",
+     "datum": "2026-06-08",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Amnesty Report: Cambodia’s Crackdown on Scam Compounds Failed to Protect Victims",
+     "url": "https://www.occrp.org/en/news/amnesty-report-cambodias-crackdown-on-scam-compounds-failed-to-protect-victims",
+     "datum": "2026-06-08",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Prosecutors Seek Up to Two Years in Prison for Russian Woman Convicted of Lying About Spy Ties",
+     "url": "https://www.occrp.org/en/news/prosecutors-seek-up-to-two-years-in-prison-for-russian-woman-convicted-of-lying-about-spy-ties",
+     "datum": "2026-06-05",
+     "samenvatting": "Federal prosecutors are urging a judge to make an example of Nomma Zarubina, who was jailed pre-trial after allegedly stalking and harassing the FBI agent investigating her."
+    },
+    {
+     "titel": "Dutch Cocaine Kingpin Sheltering in Sierra Leone Allegedly Organized Shipment Seized in Record Bust",
+     "url": "https://www.occrp.org/en/news/dutch-cocaine-kingpin-sheltering-in-sierra-leone-allegedly-organized-shipment-seized-in-record-bust",
+     "datum": "2026-06-05",
+     "samenvatting": "Fueling frustration for Sierra Leone parliamentarians, fugitive Dutch trafficker Joseph Leijdekkers allegedly masterminded a 30-ton cocaine shipment from his West African hideout, Spanish authorities told OCCRP. Leijdekkers has not been charged in the case."
+    },
+    {
+     "titel": "As the 2026 World Cup Looms, a Shadow Tournament of Cyber Fraud Begins",
+     "url": "https://www.occrp.org/en/news/as-the-2026-world-cup-looms-a-shadow-tournament-of-cyber-fraud-begins",
+     "datum": "2026-06-04",
+     "samenvatting": "Just days before the opening match, cybersecurity experts and the F.B.I. are warning fans about a sophisticated wave of fake websites, malicious betting apps, and data-stealing traps."
+    },
+    {
+     "titel": "Indonesian Deputy Minister Detained in Immigration Extortion Probe",
+     "url": "https://www.occrp.org/en/news/indonesian-deputy-minister-detained-in-immigration-extortion-probe",
+     "datum": "2026-06-04",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Thailand’s Ex-PM Thaksin Freed Early After Royal Pardon",
+     "url": "https://www.occrp.org/en/news/thailands-ex-pm-thaksin-freed-early-after-royal-pardon",
+     "datum": "2026-06-03",
+     "samenvatting": ""
+    },
+    {
+     "titel": "“Predatorgate” Wins Top Award at Second Floodlight Investigative Journalism Game Jam",
+     "url": "https://www.occrp.org/en/announcement/predatorgate-wins-top-award-at-second-floodlight-investigative-journalism-game-jam",
+     "datum": "2026-06-03",
+     "samenvatting": "The winning game prototype, described as a “love letter to old school journalism,” is based on an investigative report into Predator spyware by Athens-based outlet Inside Story."
+    },
+    {
+     "titel": "Millions in Cash, Gold, and Assault Rifles Seized in Arrest of Iraqi Oil Official",
+     "url": "https://www.occrp.org/en/news/millions-in-cash-gold-and-assault-rifles-seized-in-arrest-of-iraqi-oil-official",
+     "datum": "2026-06-03",
+     "samenvatting": "The detention of a deputy oil minister marks a dramatic escalation in Iraq’s new anti-corruption purge, signaling a crackdown on graft within the country’s most vital economic sector."
+    },
+    {
+     "titel": "Armenia Asked to Freeze Magnitsky-Linked Funds",
+     "url": "https://www.occrp.org/en/news/armenia-asked-to-freeze-magnitsky-linked-funds",
+     "datum": "2026-06-03",
+     "samenvatting": "After money tied to a notorious Russian tax fraud slipped into Armenia's financial system unnoticed by regulators, the victim is stepping in to demand an immediate asset freeze."
+    },
+    {
+     "titel": "Dozens of Azerbaijan Companies Manage Russian ‘Shadow Fleet’ Tankers",
+     "url": "https://www.occrp.org/en/news/dozens-of-azerbaijan-companies-manage-russian-shadow-fleet-tankers",
+     "datum": "2026-06-03",
+     "samenvatting": "OCCRP has obtained corporate documents for 31 companies registered in Azerbaijan, which have managed the safety aspects of “shadow fleet” tankers that avoid sanctions in order to trade in Russian oil and other petroleum products."
+    },
+    {
+     "titel": "Ecuadorian Cartel Boss Fights Extradition in Spain, Accusing President Noboa of Assassination Plot",
+     "url": "https://www.occrp.org/en/news/ecuadorian-cartel-boss-fights-extradition-in-spain-accusing-president-noboa-of-assassination-plot",
+     "datum": "2026-06-02",
+     "samenvatting": "Wilmer Chavarría, the presumed leader of the Los Lobos syndicate, claims the Ecuadorian government wants him silenced because he claims the president is tied to drug trafficking and political murder."
+    },
+    {
+     "titel": "Albania Freezes Assets in Kushner Resort Probe",
+     "url": "https://www.occrp.org/en/news/albania-freezes-assets-in-kushner-resort-probe",
+     "datum": "2026-06-02",
+     "samenvatting": "A widening property-fraud investigation into a $4 billion luxury resort linked to Jared Kushner has led Albanian authorities to freeze developer assets, compounding pressure from public protests and international critics."
+    },
+    {
+     "titel": "Romanian Army Chief Investigated in University Admissions Scandal",
+     "url": "https://www.occrp.org/en/news/romanian-army-chief-investigated-in-university-admissions-scandal",
+     "datum": "2026-06-02",
+     "samenvatting": ""
+    },
+    {
+     "titel": "US Requests Australia Extradite Jet Ski Salesman Who Created Hundreds of Shell Firms",
+     "url": "https://www.occrp.org/en/news/us-requests-australia-extradite-jet-ski-salesman-who-created-hundreds-of-shell-firms",
+     "datum": "2026-06-02",
+     "samenvatting": "Australian authorities confirmed the American extradition request for Ian Taylor on money laundering charges. OCCRP previously reported that the Taylor family set up offshore firms that were used by crime groups."
+    },
+    {
+     "titel": "Warnings of Human Trafficking Issued for 2026 FIFA World Cup",
+     "url": "https://www.occrp.org/en/news/warnings-of-human-trafficking-issued-for-2026-fifa-world-cup",
+     "datum": "2026-06-01",
+     "samenvatting": "With millions expected to descend on North America for the tournament, officials say criminal networks are using fraudulent employment offers to lure victims into sexual exploitation and forced labor."
+    }
+   ],
+   "fout": null
   },
   {
    "id": "CORRECTIV",
@@ -413,31 +551,125 @@
    "fout": null
   },
   {
-   "id": "TRAFFIC",
-   "url": "https://www.traffic.org/news/feed/",
+   "id": "EIA-INTL",
+   "url": "https://eia-international.org/feed/",
    "status": "error",
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "HTTP Error 404: Not Found"
-  },
-  {
-   "id": "EIA-INTL",
-   "url": "https://eia-international.org/feed/",
-   "status": "empty",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "feed parseert maar bevat 0 entries"
+   "fout": "HTTP Error 403: Forbidden"
   },
   {
    "id": "RUSI-CFCS",
-   "url": "https://www.rusi.org/rss/publications-and-commentary.xml",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "HTTP Error 404: Not Found"
+   "url": "https://www.rusi.org/rss/latest-publications.xml",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-06-08",
+   "n_in_window": 17,
+   "items": [
+    {
+     "titel": "Europe Means Business on Cloud and AI Sovereignty",
+     "url": "https://www.rusi.org/explore-our-research/publications/commentary/europe-means-business-cloud-and-ai-sovereignty",
+     "datum": "2026-06-08",
+     "samenvatting": "For Europe, technology dependence is a strategic liability. The European Commission’s Tech Sovereignty Package offers solutions, but can it hold its resolve?"
+    },
+    {
+     "titel": "The Energy Supply Cliff is Alarmingly Near",
+     "url": "https://www.rusi.org/explore-our-research/publications/commentary/energy-supply-cliff-alarmingly-near",
+     "datum": "2026-06-08",
+     "samenvatting": "With the Strait of Hormuz closed, national oil reserves have been steadily depleting, and will empty by the end of the summer, halting most economic activity, globally."
+    },
+    {
+     "titel": "No-Rules Based Order: The World As It Really Is",
+     "url": "https://www.rusi.org/explore-our-research/publications/commentary/no-rules-based-order-world-it-really",
+     "datum": "2026-06-07",
+     "samenvatting": "A veteran Singaporean diplomat and scholar reflects on today’s strategic uncertainties and enduring myths, appealing for calmer and more sober perspectives on the challenges."
+    },
+    {
+     "titel": "The Nathan Gill Case: Isolated Foreign Malign Interference Case or a Broader Hybrid Threat?",
+     "url": "https://www.rusi.org/explore-our-research/publications/commentary/nathan-gill-case-isolated-foreign-malign-interference-case-or-broader-hybrid-threat",
+     "datum": "2026-06-04",
+     "samenvatting": "The Nathan Gill case exposes the blurred line between corruption and foreign malign interference. Strategic resilience requires seeing the adversary’s wider campaign."
+    },
+    {
+     "titel": "Armenia’s Election and the Future of Security in the South Caucasus",
+     "url": "https://www.rusi.org/explore-our-research/publications/commentary/armenias-election-and-future-security-south-caucasus",
+     "datum": "2026-06-04",
+     "samenvatting": "Testing Armenia’s Prime Minister Nikol Pashinyan, future integration with Europe is a live issue in the country’s first election since military defeat in Nagorno-Karabakh."
+    },
+    {
+     "titel": "The DPRK’s Chemical Facilities: Sunchon Area: Site Profile 7",
+     "url": "https://www.rusi.org/explore-our-research/projects/project-anthracite-assessing-chemical-weapons-capability-dprk/site-profile-7",
+     "datum": "2026-06-03",
+     "samenvatting": "This report on Sunchon chemical facilities, co-published by RUSI, VERTIC and 38 North, is the seventh Project Anthracite site profile exploring different chemical production facilities throughout North Korea."
+    },
+    {
+     "titel": "Reforming Defence: Lessons from the UK Defence Restructuring History",
+     "url": "https://www.rusi.org/explore-our-research/publications/commentary/reforming-defence-lessons-uk-defence-restructuring-history",
+     "datum": "2026-06-03",
+     "samenvatting": "Post-Cold War defence reviews have all promised institutional transformation; most underdelivered. Understanding why requires an honest appraisal of past lessons."
+    },
+    {
+     "titel": "The DPRK’s Chemical Facilities: 8th February Vinalon Complex: Site Profile 8",
+     "url": "https://www.rusi.org/explore-our-research/projects/project-anthracite-assessing-chemical-weapons-capability-dprk/site-profile-8",
+     "datum": "2026-06-03",
+     "samenvatting": "This report on the 8th February Vinalon Complex, co-published by RUSI, VERTIC and 38 North, is the eighth and final Project Anthracite site profile exploring different chemical production facilities throughout North Korea."
+    },
+    {
+     "titel": "Power Under Dependency: Vulnerabilities in France’s Strategic Posture",
+     "url": "https://www.rusi.org/explore-our-research/publications/rusi-newsbrief/power-under-dependency-vulnerabilities-frances-strategic-posture",
+     "datum": "2026-06-03",
+     "samenvatting": "Beyond holding assets, France’s resilience depends on establishing credible access, prioritisation, and substitution mechanisms for critical materials."
+    },
+    {
+     "titel": "Re-Establishing Japan’s Intelligence Capability – ‘Spy Paradise’ lost?",
+     "url": "https://www.rusi.org/explore-our-research/publications/commentary/re-establishing-japans-intelligence-capability-spy-paradise-lost",
+     "datum": "2026-06-02",
+     "samenvatting": "Japan has had enough of being a ‘spy paradise’: lacking key elements of intelligence capability and enduring society-wide vulnerability to foreign espionage and influence."
+    },
+    {
+     "titel": "Episode 121: No Easy Off-Ramp: Iran, the US and the Search for a Deal",
+     "url": "https://www.rusi.org/podcasts/global-security-briefing/episode-121-no-easy-ramp-iran-us-and-search-deal",
+     "datum": "2026-06-02",
+     "samenvatting": "Are we seeing the potential for a diplomatic off-ramp in the latest phase of the Iran crisis, or just another pause in a much longer confrontation?"
+    },
+    {
+     "titel": "Illegal High Street Enterprise. Closed for Business, Open for Crime",
+     "url": "https://www.rusi.org/explore-our-research/publications/commentary/illegal-high-street-enterprise-closed-business-open-crime",
+     "datum": "2026-06-02",
+     "samenvatting": "Crime is running rife on Britain's high streets. Could the EU’s ‘administrative approach’ support better enforcement?"
+    },
+    {
+     "titel": "Hollowing Out Lebanon: How Pressure on Hezbollah Could Save It",
+     "url": "https://www.rusi.org/explore-our-research/publications/commentary/hollowing-out-lebanon-how-pressure-hezbollah-could-save-it",
+     "datum": "2026-06-01",
+     "samenvatting": "Israel’s campaign to disarm of Hezbollah may delegitimise the Lebanese state faster than it degrades the militia, reproducing the conditions that have so far sustained Hezbollah."
+    },
+    {
+     "titel": "Who Rules Cyberspace? The Microsoft Approach to Cyber Diplomacy",
+     "url": "https://www.rusi.org/news-and-comment/video-commentary/who-rules-cyberspace-microsoft-approach-cyber-diplomacy",
+     "datum": "2026-05-31",
+     "samenvatting": "In the final episode of our Cyber Statecraft series, we invite Microsoft – a company that operates across nearly every jurisdiction on Earth – to the conversation."
+    },
+    {
+     "titel": "Episode 19: Adversarial Strategy: Russia’s Preparations for a Long War",
+     "url": "https://www.rusi.org/podcasts/talking-strategy/episode-19-adversarial-strategy-russias-preparations-long-war",
+     "datum": "2026-05-31",
+     "samenvatting": "We look at how Russia’s armed forces are learning lessons from combat and examine Moscow’s ambitions in its war against Ukraine."
+    },
+    {
+     "titel": "The Inextricable Link Between Geopolitics, Security and Humanitarian Impact",
+     "url": "https://www.rusi.org/explore-our-research/publications/commentary/inextricable-link-between-geopolitics-security-and-humanitarian-impact",
+     "datum": "2026-05-31",
+     "samenvatting": "As big as the change at the end of the Cold War, the current 'hinge moment' is different in its complexities, discusses former UK Foreign Secretary David Miliband."
+    },
+    {
+     "titel": "Duke of Wellington Medal for Military History 2025",
+     "url": "https://www.rusi.org/about/our-heritage/duke-of-wellington-medal-for-military-history/2025",
+     "datum": "2026-05-31",
+     "samenvatting": "We are pleased to announce the winner for the 2025 Duke of Wellington Medal for Military History."
+    }
+   ],
+   "fout": null
   },
   {
    "id": "CHAINALYSIS",
@@ -508,24 +740,6 @@
    "fout": null
   },
   {
-   "id": "ACAMS-TODAY",
-   "url": "https://www.acamstoday.org/feed/",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "HTTP Error 404: Not Found"
-  },
-  {
-   "id": "ACFE-INSIGHTS",
-   "url": "https://www.acfeinsights.com/feed",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
-  },
-  {
    "id": "GI-TOC",
    "url": "https://globalinitiative.net/feed/",
    "status": "ok",
@@ -574,54 +788,11 @@
   {
    "id": "INSIGHTCRIME",
    "url": "https://insightcrime.org/feed/",
-   "status": "ok",
-   "laatste_pubdate_gezien": "2026-06-09",
-   "n_in_window": 7,
-   "items": [
-    {
-     "titel": "‘I’m Just a Regular Girl’: The ‘Narco’ Influencer Who Survived a Kidnapping",
-     "url": "https://insightcrime.org/news/im-just-a-regular-girl-the-narco-influencer-who-survived-a-kidnapping/",
-     "datum": "2026-06-09",
-     "samenvatting": "‘I’m Just a Regular Girl’: The ‘Narco’ Influencer Who Survived a Kidnapping Nicole Pardo, the influencer known as La Nicholette, was kidnapped in Sinaloa in early 2026. Her story—still full of unanswered questions—reveals the blurred lines of narco-influencer culture. The post ‘I’m Just a Regular Gi"
-    },
-    {
-     "titel": "Colombia Sentences ‘Otoniel’ as the Gulf Clan Continues to Expand",
-     "url": "https://insightcrime.org/news/colombia-sentences-otoniel-as-the-gulf-clan-continues-to-expand/",
-     "datum": "2026-06-08",
-     "samenvatting": "Colombia Sentences ‘Otoniel’ as the Gulf Clan Continues to Expand Otoniel was sentenced to 30 years in Colombia as the Gulf Clan he once led continues to expand under the leadership of \"Chiquito Malo.\" The post Colombia Sentences ‘Otoniel’ as the Gulf Clan Continues to Expand appeared first on InSig"
-    },
-    {
-     "titel": "First US Screwworm Case Spotlights Contraband Cattle in Mexico",
-     "url": "https://insightcrime.org/news/first-us-screwworm-case-contraband-cattle-mexico/",
-     "datum": "2026-06-05",
-     "samenvatting": "First US Screwworm Case Spotlights Contraband Cattle in Mexico The first case of the screwworm parasite in livestock has been detected in the United States, highlighting the ongoing consequences of contraband cattle smuggling from Central America into Mexico. The post First US Screwworm Case Spotlig"
-    },
-    {
-     "titel": "On the Radar: Trump in Colombia’s Elections, a Blow to Tren de Aragua, and Brazil’s Terrorist Tag",
-     "url": "https://insightcrime.org/news/on-the-radar-trump-in-colombias-elections-a-blow-to-tren-de-aragua-and-brazils-terrorist-tag/",
-     "datum": "2026-06-04",
-     "samenvatting": "On the Radar: Trump in Colombia’s Elections, a Blow to Tren de Aragua, and Brazil’s Terrorist Tag This week’s top three organized crime stories in On the Radar. The post On the Radar: Trump in Colombia’s Elections, a Blow to Tren de Aragua, and Brazil’s Terrorist Tag appeared first on InSight Crime "
-    },
-    {
-     "titel": "Violence Between Criminal Groups and LatAm Governments Has Risen Since Trump: Report",
-     "url": "https://insightcrime.org/news/how-has-donroe-doctrine-transformed-latam-security-policy/",
-     "datum": "2026-06-02",
-     "samenvatting": "Violence Between Criminal Groups and LatAm Governments Has Risen Since Trump: Report As US President Donald Trump attempts to sway security policy in Latin America and the Caribbean, a new report found that confrontations between security forces and criminal groups are on the rise, while criminal gr"
-    },
-    {
-     "titel": "The InSight Take: PCC and Red Command— Who Loses From US Terrorist Designations in Brazil?",
-     "url": "https://insightcrime.org/news/the-insight-take-pcc-and-red-command-who-loses-from-us-terrorist-designations-in-brazil/",
-     "datum": "2026-06-01",
-     "samenvatting": "The InSight Take: PCC and Red Command— Who Loses From US Terrorist Designations in Brazil? In this week's InSight Take, Managing Editor Deborah Bonello and Co-Director Steven Dudley discuss the recent US terrorist designations of the PCC and Red Command gangs, and how they affect Brazil's security l"
-    },
-    {
-     "titel": "US Terrorism Designations Will Hit the PCC’s Money—and Everyone Else’s",
-     "url": "https://insightcrime.org/news/us-terrorism-designations-will-hit-the-pccs-money-and-everyone-elses/",
-     "datum": "2026-06-01",
-     "samenvatting": "US Terrorism Designations Will Hit the PCC’s Money—and Everyone Else’s The addition of two Brazilian criminal groups to the US State Department’s list of foreign terrorist organizations could squeeze everyone doing business in the world’s tenth-largest economy—except for the criminals it is supposed"
-    }
-   ],
-   "fout": null
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "HTTP Error 429: Too Many Requests"
   },
   {
    "id": "TAXJUSTICE",
@@ -631,15 +802,6 @@
    "n_in_window": 0,
    "items": [],
    "fout": null
-  },
-  {
-   "id": "ICCT",
-   "url": "https://icct.nl/feed/",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "HTTP Error 404: Not Found"
   }
  ]
 }
