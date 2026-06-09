@@ -1,12 +1,12 @@
 {
  "week": "2026-W24",
- "gegenereerd_op": "2026-06-09T21:26:48Z",
+ "gegenereerd_op": "2026-06-09T21:35:09Z",
  "venster_dagen": 9,
  "cutoff": "2026-05-31",
  "n_feeds": 34,
- "n_ok": 11,
+ "n_ok": 12,
  "n_error": 21,
- "n_items_totaal": 36,
+ "n_items_totaal": 53,
  "bronnen": [
   {
    "id": "EUROPOL-NEWS",
@@ -15,7 +15,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:2:0: syntax error"
+   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "EUROPOL-PUB",
@@ -24,7 +24,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:2:0: syntax error"
+   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "FATF-NEWS",
@@ -33,7 +33,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:2:1326: not well-formed (invalid token)"
+   "fout": "HTTP Error 403: Forbidden"
   },
   {
    "id": "DNB-NIEUWS",
@@ -42,7 +42,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:10:2: mismatched tag"
+   "fout": "HTTP Error 403: Forbidden"
   },
   {
    "id": "DNB-PUB",
@@ -51,7 +51,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:10:2: mismatched tag"
+   "fout": "HTTP Error 403: Forbidden"
   },
   {
    "id": "EBA-NEWS",
@@ -60,7 +60,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:12:70: not well-formed (invalid token)"
+   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "ECB-NEWS",
@@ -133,7 +133,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:8:43: mismatched tag"
+   "fout": "HTTP Error 403: Forbidden"
   },
   {
    "id": "RIJKSOVERHEID-FIN",
@@ -142,7 +142,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: text/html; charset=utf-8 is not an XML media type"
+   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "RIJKSOVERHEID-JenV",
@@ -151,7 +151,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: text/html; charset=utf-8 is not an XML media type"
+   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "OM-NL",
@@ -160,7 +160,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: text/html; charset=utf-8 is not an XML media type"
+   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "OFAC-ACTIONS",
@@ -169,7 +169,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:6:14: not well-formed (invalid token)"
+   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "FINCEN-NEWS",
@@ -178,16 +178,16 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:6:14: not well-formed (invalid token)"
+   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "UK-NCA",
    "url": "https://www.nationalcrimeagency.gov.uk/news/news-listing?format=rss",
-   "status": "empty",
+   "status": "error",
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "feed parseert maar bevat 0 entries"
+   "fout": "HTTP Error 403: Forbidden"
   },
   {
    "id": "FCA-NEWS",
@@ -205,7 +205,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:8:0: syntax error"
+   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "OFSI-UK",
@@ -230,7 +230,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:8:0: syntax error"
+   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "GFI",
@@ -248,16 +248,119 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:2:0: syntax error"
+   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "CORRECTIV",
    "url": "https://correctiv.org/feed/",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "IncompleteRead(80296 bytes read, 46993 more expected)"
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-06-09",
+   "n_in_window": 17,
+   "items": [
+    {
+     "titel": "Deutschland will Kampfjet ohne Frankreich bauen",
+     "url": "https://correctiv.org/aktuelles/bundeswehr/2026/06/09/deutschland-will-kampfjet-ohne-frankreich-bauen/",
+     "datum": "2026-06-09",
+     "samenvatting": "Für rund 500 Milliarden Euro sollten Airbus und Dassault einen Gegenentwurf zum US-Kampfjet F35 entwickeln. Deutschland will sich nun neue Partner suchen."
+    },
+    {
+     "titel": "Kein Ukraine-Bezug: Foto von geretteter Katze ist aus den USA",
+     "url": "https://correctiv.org/faktencheck/2026/06/09/kein-ukraine-bezug-foto-von-geretteter-katze-ist-aus-den-usa/",
+     "datum": "2026-06-09",
+     "samenvatting": "Online sollen Zweifel an der Berichterstattung zur Ukraine gesät werden: Das Foto von einer Frau, die ihre Katze nach einem Tornado in den USA rettete, sei für Berichte über einen Bombenangriff in der Ukraine verwendet worden. Doch das stimmt nicht."
+    },
+    {
+     "titel": "Das überrollte System",
+     "url": "https://correctiv.org/aktuelles/gesundheit/2026/06/09/das-ueberrollte-system/",
+     "datum": "2026-06-09",
+     "samenvatting": "Die Pillen werden über Instagram oder TikTok bestellt: Suchtkliniken schlagen Alarm wegen einer wachsenden Zahl von Opiodabhängigen. Wie groß ist das Problem wirklich? CORRECTIV und DER SPIEGEL starten eine Umfrage unter Betroffenen und Angehörigen."
+    },
+    {
+     "titel": "Fraktionsübergreifend: EU-Abgeordnete wollen sich für Verbot der AfD-Europapartei ESN einsetzen",
+     "url": "https://correctiv.org/aktuelles/afd/2026/06/08/eu-abgeordnete-wollen-sich-fuer-verbot-der-afd-europapartei-esn-einsetzen/",
+     "datum": "2026-06-08",
+     "samenvatting": "Die EU-Aufsichtsbehörde sieht Hinweise auf schwere Verstöße gegen EU-Grundwerte bei allen neun Mitgliedsparteien der ESN – darunter die AfD. Mehrere Fraktionen wollen das Verfahren jetzt anstoßen."
+    },
+    {
+     "titel": "Organspenderegister: Was passiert, wenn die Widerspruchslösung kommt?",
+     "url": "https://correctiv.org/aktuelles/gesundheit/2026/06/08/organspenderegister-wass-passiert-wenn-widerspruchsloesung-kommt/",
+     "datum": "2026-06-08",
+     "samenvatting": "Seit zwei Jahren können Menschen in einem zentralen Organspenderegister ihren Haltung zur Organspende hinterlegen. Bislang haben dies rund 500.000 Menschen getan – viel zu wenige, um den Bedarf an Spenderorganen zu decken. Jetzt wollen Bundestagsabgeordnete einen neuen Anlauf bei der sogenannten Wid"
+    },
+    {
+     "titel": "Pfizer-Dokument belegt keine 80 Prozent Fehlgeburten bei geimpften Schwangeren",
+     "url": "https://correctiv.org/faktencheck/2026/06/08/coronavirus-pfizer-dokument-belegt-keine-80-prozent-fehlgeburten-bei-geimpften-schwangeren-covid-19/",
+     "datum": "2026-06-08",
+     "samenvatting": "Online heißt es, 80 Prozent der Schwangeren hätten während der Teilnahme an einer Covid-19-Impfstudie von Pfizer ihre Babys verloren. Die Behauptung wird in ähnlicher Form auch von der US-Impfgegnerin Naomi Wolf verbreitet. Doch sie ist falsch."
+    },
+    {
+     "titel": "CORRECTIV entwickelt Spiel: „Projekt G“ macht Journalismus erlebbar",
+     "url": "https://correctiv.org/in-eigener-sache/2026/06/08/correctiv-entwickelt-spiel-projekt-g-macht-journalismus-erlebbar/",
+     "datum": "2026-06-08",
+     "samenvatting": "Für Spieleabende, Workshops und Bildungsprogramme: Mit dem Spiel „Projekt G“ macht CORRECTIV investigative Recherchen erlebbar. Die Spielenden decken ein geheimes Treffen mit bedrohlichen Plänen auf und müssen ihre Ergebnisse vor der Chefredaktion verteidigen."
+    },
+    {
+     "titel": "AfD-Europapartei ESN droht Verlust von Status und Millionen-Förderung",
+     "url": "https://correctiv.org/aktuelles/afd/2026/06/05/eu-bericht-belastet-esn-partei-um-afd-mit-schweren-vorwuerfen/",
+     "datum": "2026-06-05",
+     "samenvatting": "Ein Bericht der EU-Aufsichtsbehörde sieht Hinweise auf Verstöße der europäischen Rechtsaußenpartei ESN gegen EU-Grundwerte. Das könnte drastische Folgen für die Parteienfamilie der AfD nach sich ziehen. CORRECTIV liegen die Belege vor."
+    },
+    {
+     "titel": "Wo reicht Ihr Geld zum Wohnen?",
+     "url": "https://correctiv.org/wohnen/2026/06/04/wo-reicht-ihr-geld-zum-wohnen-schweiz-miete-kauf-preise/",
+     "datum": "2026-06-04",
+     "samenvatting": "Wo können Sie sich mit Ihrem Einkommen Wohnen noch leisten – und wo nicht? Und wie viel Prozent Ihres Nettoeinkommens gehen fürs Wohnen drauf? Die Antworten verrät Ihnen unser Wohnometer, das auf exklusiv von CORRECTIV.Schweiz ausgewerteten Miet- und Kaufpreisen basiert."
+    },
+    {
+     "titel": "Wo Russlands Propaganda an der Realität zerschellt",
+     "url": "https://correctiv.org/aktuelles/international/2026/06/05/wo-russlands-propaganda-an-der-realitaet-zerschellt/",
+     "datum": "2026-06-05",
+     "samenvatting": "Russlands Propaganda-Maschinerie läuft. Eines der Zielländer ist Armenien, wo am 7. Juni eine Parlamentswahl stattfindet. Doch die alten Methoden verlieren ihre Wirkung in einem Land, das sich längst weiterentwickelt."
+    },
+    {
+     "titel": "Ein Leak enthüllt, wie Kreml, Geheimdienst und private Firmen zusammenarbeiten",
+     "url": "https://correctiv.org/hybride-kriegsfuehrung/2026/06/04/ein-leak-enthuellt-wie-kreml-geheimdienst-und-private-firmen-zusammenarbeiten/",
+     "datum": "2026-06-04",
+     "samenvatting": "Plastikskelette vor dem Brandenburger Tor und KI-Propaganda gegen Armeniens Premier: Ein Leak zeigt, wie Russland Desinformation und Sabotage koordiniert."
+    },
+    {
+     "titel": "CORRECTIV als bevorzugte Quelle bei Google einstellen",
+     "url": "https://correctiv.org/in-eigener-sache/2026/06/05/correctiv-als-bevorzugte-quelle-bei-google-einstellen/",
+     "datum": "2026-06-05",
+     "samenvatting": "Möchten Sie die Recherchen, Nachrichten und Faktenchecks von CORRECTIV in der Google-Suche leichter finden? Mit einer neuen Funktion können Sie CORRECTIV als bevorzugte Quelle auswählen."
+    },
+    {
+     "titel": "Wegen psychischer Krankheit polizeibekannt?",
+     "url": "https://correctiv.org/aktuelles/gesellschaft-2/2026/06/04/wegen-psychischer-krankheit-polizeibekannt/",
+     "datum": "2026-06-04",
+     "samenvatting": "In Hessen gilt seit einigen Monaten eine Meldepflicht für Menschen mit schweren psychischen Krankheiten – wenn Ärzte sie als potenziell gefährlich einstufen. Niedersachsen plant nun Ähnliches. Ein bedrohlicher Grundrechtseingriff – oder wirksamer Schutz für die Bevölkerung vor Gewalttaten?"
+    },
+    {
+     "titel": "In Sekunden bestellt und geliefert: Ein Mietvertrag für die AfD",
+     "url": "https://correctiv.org/aktuelles/afd/2026/06/03/in-sekunden-bestellt-und-geliefert-ein-mietvertrag-fuer-die-afd/",
+     "datum": "2026-06-03",
+     "samenvatting": "Flink präsentiert sich als diverses und weltoffenes Unternehmen. Gleichzeitig profitiert eine Firma der AfD von einem Mietvertrag mit dem Lieferdienst."
+    },
+    {
+     "titel": "Hat Pistorius beim Wehrdienstgesetz Rechtsbruch begangen?",
+     "url": "https://correctiv.org/aktuelles/sicherheit-und-verteidigung/2026/06/03/hat-pistorius-beim-wehrdienstgesetz-rechtsbruch-begangen/",
+     "datum": "2026-06-03",
+     "samenvatting": "Das Verteidigungsministerium setzt eine umstrittene Wehrdienstregel per Verfügung außer Kraft. Rechtsexperten werfen Minister Boris Pistorius vor, damit die Gewaltenteilung missachtet zu haben. CORRECTIV zeichnet die Debatte nach."
+    },
+    {
+     "titel": "„Remigrations“-Gipfel: AfD sucht Nähe zu Sellner und US-Hardlinern",
+     "url": "https://correctiv.org/aktuelles/neue-rechte/2026/06/01/afd-remigration-summit-sellner-bovino-2026/",
+     "datum": "2026-06-01",
+     "samenvatting": "Beim „Remigration Summit“ in Portugal vernetzt sich die rechtsextreme Szene in Europa rund um den Österreicher Martin Sellner. Auch die AfD ist mit Bundesvorstand Kay Gottschalk hochrangig vertreten – er holt sich Tipps beim früheren US-amerikanischen ICE-Befehlshaber Gregory Bovino."
+    },
+    {
+     "titel": "Brennholz gleich Klimaschutz? Was an dieser Aussage von Hubert Aiwanger dran ist",
+     "url": "https://correctiv.org/faktencheck/2026/06/01/brennholz-gleich-klimaschutz-was-an-dieser-aussage-von-hubert-aiwanger-dran-ist/",
+     "datum": "2026-06-01",
+     "samenvatting": "Brennholz sei gleich Klimaschutz, hat Bayerns Wirtschaftsminister Hubert Aiwanger online behauptet. Wie er darauf kommt und ob das stimmt, fragen einige in den Kommentaren. Wir haben bei Fachleuten nachgehakt – es zeigt sich: Die CO2-Bilanz von Holz ist facettenreich."
+    }
+   ],
+   "fout": null
   },
   {
    "id": "ICIJ",
@@ -316,7 +419,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:3:177: not well-formed (invalid token)"
+   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "EIA-INTL",
@@ -334,7 +437,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:2:1458: not well-formed (invalid token)"
+   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "CHAINALYSIS",
@@ -411,7 +514,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:26:85: not well-formed (invalid token)"
+   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "ACFE-INSIGHTS",
@@ -420,7 +523,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+   "fout": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
   },
   {
    "id": "GI-TOC",
@@ -536,7 +639,7 @@
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "bozo: <unknown>:23:14: not well-formed (invalid token)"
+   "fout": "HTTP Error 404: Not Found"
   }
  ]
 }
