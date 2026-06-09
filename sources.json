@@ -1,0 +1,211 @@
+{
+ "_doel": "Publieke RSS/Atom-feeds van institutionele newsrooms — wekelijkse snapshot-input.",
+ "_sync": "Afgeleid van Weekly_Scans/bronnen.json (alleen type rss/atom, actief). Bij bron-wijzigingen dit bestand opnieuw genereren.",
+ "gegenereerd_op": "2026-06-09",
+ "feeds": [
+  {
+   "id": "EUROPOL-NEWS",
+   "type": "rss",
+   "url": "https://www.europol.europa.eu/rss-feed/newsroom",
+   "lang": "en"
+  },
+  {
+   "id": "EUROPOL-PUB",
+   "type": "rss",
+   "url": "https://www.europol.europa.eu/rss-feed/publications",
+   "lang": "en"
+  },
+  {
+   "id": "FATF-NEWS",
+   "type": "rss",
+   "url": "https://www.fatf-gafi.org/en/publications/All-Publications.html?hf=10&b=0&s=desc(fatfdocument_date)",
+   "lang": "en"
+  },
+  {
+   "id": "DNB-NIEUWS",
+   "type": "rss",
+   "url": "https://www.dnb.nl/rss/persberichten/",
+   "lang": "nl"
+  },
+  {
+   "id": "DNB-PUB",
+   "type": "rss",
+   "url": "https://www.dnb.nl/rss/publicaties/",
+   "lang": "nl"
+  },
+  {
+   "id": "EBA-NEWS",
+   "type": "rss",
+   "url": "https://www.eba.europa.eu/news-press/news",
+   "lang": "en"
+  },
+  {
+   "id": "ECB-NEWS",
+   "type": "rss",
+   "url": "https://www.ecb.europa.eu/rss/press.html",
+   "lang": "en"
+  },
+  {
+   "id": "EUCOUNCIL-PRESS",
+   "type": "rss",
+   "url": "https://www.consilium.europa.eu/en/press/press-releases/?filters=2031&rss",
+   "lang": "en"
+  },
+  {
+   "id": "RIJKSOVERHEID-FIN",
+   "type": "rss",
+   "url": "https://www.rijksoverheid.nl/ministeries/ministerie-van-financien/nieuws.rss",
+   "lang": "nl"
+  },
+  {
+   "id": "RIJKSOVERHEID-JenV",
+   "type": "rss",
+   "url": "https://www.rijksoverheid.nl/ministeries/ministerie-van-justitie-en-veiligheid/nieuws.rss",
+   "lang": "nl"
+  },
+  {
+   "id": "OM-NL",
+   "type": "rss",
+   "url": "https://www.om.nl/actueel/nieuws/rss.xml",
+   "lang": "nl"
+  },
+  {
+   "id": "OFAC-ACTIONS",
+   "type": "rss",
+   "url": "https://ofac.treasury.gov/media/913041/download?inline",
+   "lang": "en"
+  },
+  {
+   "id": "FINCEN-NEWS",
+   "type": "rss",
+   "url": "https://www.fincen.gov/news-releases.rss",
+   "lang": "en"
+  },
+  {
+   "id": "UK-NCA",
+   "type": "rss",
+   "url": "https://www.nationalcrimeagency.gov.uk/news/news-listing?format=rss",
+   "lang": "en"
+  },
+  {
+   "id": "FCA-NEWS",
+   "type": "rss",
+   "url": "https://www.fca.org.uk/news/rss.xml",
+   "lang": "en"
+  },
+  {
+   "id": "BAFIN-EN",
+   "type": "rss",
+   "url": "https://www.bafin.de/SiteGlobals/Functions/RSSFeed/EN/RSSNewsroom/RSSNewsroom.xml",
+   "lang": "en"
+  },
+  {
+   "id": "OFSI-UK",
+   "type": "atom",
+   "url": "https://www.gov.uk/government/organisations/office-of-financial-sanctions-implementation.atom",
+   "lang": "en"
+  },
+  {
+   "id": "TI-NEWS",
+   "type": "rss",
+   "url": "https://www.transparency.org/en/press.rss",
+   "lang": "en"
+  },
+  {
+   "id": "GFI",
+   "type": "rss",
+   "url": "https://gfintegrity.org/feed/",
+   "lang": "en"
+  },
+  {
+   "id": "OCCRP",
+   "type": "rss",
+   "url": "https://www.occrp.org/en/daily.rss",
+   "lang": "en"
+  },
+  {
+   "id": "CORRECTIV",
+   "type": "rss",
+   "url": "https://correctiv.org/feed/",
+   "lang": "de"
+  },
+  {
+   "id": "ICIJ",
+   "type": "rss",
+   "url": "https://www.icij.org/feed/",
+   "lang": "en"
+  },
+  {
+   "id": "BELLINGCAT",
+   "type": "rss",
+   "url": "https://www.bellingcat.com/feed/",
+   "lang": "en"
+  },
+  {
+   "id": "TRAFFIC",
+   "type": "rss",
+   "url": "https://www.traffic.org/news/feed/",
+   "lang": "en"
+  },
+  {
+   "id": "EIA-INTL",
+   "type": "rss",
+   "url": "https://eia-international.org/feed/",
+   "lang": "en"
+  },
+  {
+   "id": "RUSI-CFCS",
+   "type": "rss",
+   "url": "https://www.rusi.org/rss/publications-and-commentary.xml",
+   "lang": "en"
+  },
+  {
+   "id": "CHAINALYSIS",
+   "type": "rss",
+   "url": "https://www.chainalysis.com/blog/feed/",
+   "lang": "en"
+  },
+  {
+   "id": "ELLIPTIC",
+   "type": "rss",
+   "url": "https://www.elliptic.co/blog/rss.xml",
+   "lang": "en"
+  },
+  {
+   "id": "ACAMS-TODAY",
+   "type": "rss",
+   "url": "https://www.acamstoday.org/feed/",
+   "lang": "en"
+  },
+  {
+   "id": "ACFE-INSIGHTS",
+   "type": "rss",
+   "url": "https://www.acfeinsights.com/feed",
+   "lang": "en"
+  },
+  {
+   "id": "GI-TOC",
+   "type": "rss",
+   "url": "https://globalinitiative.net/feed/",
+   "lang": "en"
+  },
+  {
+   "id": "INSIGHTCRIME",
+   "type": "rss",
+   "url": "https://insightcrime.org/feed/",
+   "lang": "en"
+  },
+  {
+   "id": "TAXJUSTICE",
+   "type": "rss",
+   "url": "https://taxjustice.net/feed/",
+   "lang": "en"
+  },
+  {
+   "id": "ICCT",
+   "type": "rss",
+   "url": "https://icct.nl/feed/",
+   "lang": "en"
+  }
+ ]
+}
