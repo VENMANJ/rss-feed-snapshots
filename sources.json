@@ -6,13 +6,13 @@
   {
    "id": "EUROPOL-NEWS",
    "type": "rss",
-   "url": "https://www.europol.europa.eu/rss-feed/newsroom",
+   "url": "https://www.europol.europa.eu/cms/api/rss/news",
    "lang": "en"
   },
   {
    "id": "EUROPOL-PUB",
    "type": "rss",
-   "url": "https://www.europol.europa.eu/rss-feed/publications",
+   "url": "https://www.europol.europa.eu/cms/api/rss/publications",
    "lang": "en"
   },
   {
@@ -36,7 +36,7 @@
   {
    "id": "EBA-NEWS",
    "type": "rss",
-   "url": "https://www.eba.europa.eu/news-press/news",
+   "url": "https://www.eba.europa.eu/news-press/news/rss.xml",
    "lang": "en"
   },
   {
@@ -54,32 +54,20 @@
   {
    "id": "RIJKSOVERHEID-FIN",
    "type": "rss",
-   "url": "https://www.rijksoverheid.nl/ministeries/ministerie-van-financien/nieuws.rss",
+   "url": "https://feeds.rijksoverheid.nl/ministeries/ministerie-van-financien/nieuws.rss",
    "lang": "nl"
   },
   {
    "id": "RIJKSOVERHEID-JenV",
    "type": "rss",
-   "url": "https://www.rijksoverheid.nl/ministeries/ministerie-van-justitie-en-veiligheid/nieuws.rss",
+   "url": "https://feeds.rijksoverheid.nl/ministeries/ministerie-van-justitie-en-veiligheid/nieuws.rss",
    "lang": "nl"
   },
   {
    "id": "OM-NL",
    "type": "rss",
-   "url": "https://www.om.nl/actueel/nieuws/rss.xml",
+   "url": "https://www.om.nl/actueel/nieuws/rss",
    "lang": "nl"
-  },
-  {
-   "id": "OFAC-ACTIONS",
-   "type": "rss",
-   "url": "https://ofac.treasury.gov/media/913041/download?inline",
-   "lang": "en"
-  },
-  {
-   "id": "FINCEN-NEWS",
-   "type": "rss",
-   "url": "https://www.fincen.gov/news-releases.rss",
-   "lang": "en"
   },
   {
    "id": "UK-NCA",
@@ -96,19 +84,13 @@
   {
    "id": "BAFIN-EN",
    "type": "rss",
-   "url": "https://www.bafin.de/SiteGlobals/Functions/RSSFeed/EN/RSSNewsroom/RSSNewsroom.xml",
+   "url": "https://www.bafin.de/EN/service/rss/_function/rssnewsfeed.xml",
    "lang": "en"
   },
   {
    "id": "OFSI-UK",
    "type": "atom",
    "url": "https://www.gov.uk/government/organisations/office-of-financial-sanctions-implementation.atom",
-   "lang": "en"
-  },
-  {
-   "id": "TI-NEWS",
-   "type": "rss",
-   "url": "https://www.transparency.org/en/press.rss",
    "lang": "en"
   },
   {
@@ -120,7 +102,7 @@
   {
    "id": "OCCRP",
    "type": "rss",
-   "url": "https://www.occrp.org/en/daily.rss",
+   "url": "https://www.occrp.org/en/feed",
    "lang": "en"
   },
   {
@@ -142,12 +124,6 @@
    "lang": "en"
   },
   {
-   "id": "TRAFFIC",
-   "type": "rss",
-   "url": "https://www.traffic.org/news/feed/",
-   "lang": "en"
-  },
-  {
    "id": "EIA-INTL",
    "type": "rss",
    "url": "https://eia-international.org/feed/",
@@ -156,7 +132,7 @@
   {
    "id": "RUSI-CFCS",
    "type": "rss",
-   "url": "https://www.rusi.org/rss/publications-and-commentary.xml",
+   "url": "https://www.rusi.org/rss/latest-publications.xml",
    "lang": "en"
   },
   {
@@ -169,18 +145,6 @@
    "id": "ELLIPTIC",
    "type": "rss",
    "url": "https://www.elliptic.co/blog/rss.xml",
-   "lang": "en"
-  },
-  {
-   "id": "ACAMS-TODAY",
-   "type": "rss",
-   "url": "https://www.acamstoday.org/feed/",
-   "lang": "en"
-  },
-  {
-   "id": "ACFE-INSIGHTS",
-   "type": "rss",
-   "url": "https://www.acfeinsights.com/feed",
    "lang": "en"
   },
   {
@@ -199,12 +163,6 @@
    "id": "TAXJUSTICE",
    "type": "rss",
    "url": "https://taxjustice.net/feed/",
-   "lang": "en"
-  },
-  {
-   "id": "ICCT",
-   "type": "rss",
-   "url": "https://icct.nl/feed/",
    "lang": "en"
   }
  ]
