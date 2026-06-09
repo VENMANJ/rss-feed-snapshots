@@ -1,0 +1,542 @@
+{
+ "week": "2026-W24",
+ "gegenereerd_op": "2026-06-09T21:26:48Z",
+ "venster_dagen": 9,
+ "cutoff": "2026-05-31",
+ "n_feeds": 34,
+ "n_ok": 11,
+ "n_error": 21,
+ "n_items_totaal": 36,
+ "bronnen": [
+  {
+   "id": "EUROPOL-NEWS",
+   "url": "https://www.europol.europa.eu/rss-feed/newsroom",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:2:0: syntax error"
+  },
+  {
+   "id": "EUROPOL-PUB",
+   "url": "https://www.europol.europa.eu/rss-feed/publications",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:2:0: syntax error"
+  },
+  {
+   "id": "FATF-NEWS",
+   "url": "https://www.fatf-gafi.org/en/publications/All-Publications.html?hf=10&b=0&s=desc(fatfdocument_date)",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:2:1326: not well-formed (invalid token)"
+  },
+  {
+   "id": "DNB-NIEUWS",
+   "url": "https://www.dnb.nl/rss/persberichten/",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:10:2: mismatched tag"
+  },
+  {
+   "id": "DNB-PUB",
+   "url": "https://www.dnb.nl/rss/publicaties/",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:10:2: mismatched tag"
+  },
+  {
+   "id": "EBA-NEWS",
+   "url": "https://www.eba.europa.eu/news-press/news",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:12:70: not well-formed (invalid token)"
+  },
+  {
+   "id": "ECB-NEWS",
+   "url": "https://www.ecb.europa.eu/rss/press.html",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-06-08",
+   "n_in_window": 9,
+   "items": [
+    {
+     "titel": "ECB announces main milestones for roll-out of Integrated Reporting Framework",
+     "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260608~6766ec7154.en.html",
+     "datum": "2026-06-08",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Christine Lagarde: Women and leadership: widening the pipeline",
+     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260604~f5d373b29f.en.html",
+     "datum": "2026-06-04",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Piero Cipollone: Europe’s money evolves so people’s freedom to pay remains",
+     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260603_1~2801335beb.en.html",
+     "datum": "2026-06-03",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Frank Elderson: Strengthening operational resilience for the age of AI",
+     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260603~5b8e67f237.en.html",
+     "datum": "2026-06-03",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Boris Vujčić: A European perspective on currency and convergence",
+     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260602~101b71c594.en.html",
+     "datum": "2026-06-02",
+     "samenvatting": ""
+    },
+    {
+     "titel": "International role of the euro increased moderately in 2025",
+     "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260602~f941e87516.en.html",
+     "datum": "2026-06-02",
+     "samenvatting": ""
+    },
+    {
+     "titel": "ECB Consumer Expectations Survey results – April 2026",
+     "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260601~bf8026bfc2.en.html",
+     "datum": "2026-06-01",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Isabel Schnabel: From money market funds to stablecoins: lessons for central banks",
+     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260601~38dffe5ec5.en.html",
+     "datum": "2026-06-01",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Luis de Guindos: Interview with Expansión",
+     "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260531~f648dbde70.en.html",
+     "datum": "2026-05-31",
+     "samenvatting": ""
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "EUCOUNCIL-PRESS",
+   "url": "https://www.consilium.europa.eu/en/press/press-releases/?filters=2031&rss",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:8:43: mismatched tag"
+  },
+  {
+   "id": "RIJKSOVERHEID-FIN",
+   "url": "https://www.rijksoverheid.nl/ministeries/ministerie-van-financien/nieuws.rss",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: text/html; charset=utf-8 is not an XML media type"
+  },
+  {
+   "id": "RIJKSOVERHEID-JenV",
+   "url": "https://www.rijksoverheid.nl/ministeries/ministerie-van-justitie-en-veiligheid/nieuws.rss",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: text/html; charset=utf-8 is not an XML media type"
+  },
+  {
+   "id": "OM-NL",
+   "url": "https://www.om.nl/actueel/nieuws/rss.xml",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: text/html; charset=utf-8 is not an XML media type"
+  },
+  {
+   "id": "OFAC-ACTIONS",
+   "url": "https://ofac.treasury.gov/media/913041/download?inline",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:6:14: not well-formed (invalid token)"
+  },
+  {
+   "id": "FINCEN-NEWS",
+   "url": "https://www.fincen.gov/news-releases.rss",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:6:14: not well-formed (invalid token)"
+  },
+  {
+   "id": "UK-NCA",
+   "url": "https://www.nationalcrimeagency.gov.uk/news/news-listing?format=rss",
+   "status": "empty",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "feed parseert maar bevat 0 entries"
+  },
+  {
+   "id": "FCA-NEWS",
+   "url": "https://www.fca.org.uk/news/rss.xml",
+   "status": "ok",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": null
+  },
+  {
+   "id": "BAFIN-EN",
+   "url": "https://www.bafin.de/SiteGlobals/Functions/RSSFeed/EN/RSSNewsroom/RSSNewsroom.xml",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:8:0: syntax error"
+  },
+  {
+   "id": "OFSI-UK",
+   "url": "https://www.gov.uk/government/organisations/office-of-financial-sanctions-implementation.atom",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-06-08",
+   "n_in_window": 1,
+   "items": [
+    {
+     "titel": "Guidance: UK Financial Sanctions FAQs",
+     "url": "https://www.gov.uk/government/publications/uk-financial-sanctions-faqs",
+     "datum": "2026-06-08",
+     "samenvatting": "OFSI publishes FAQs providing short-form guidance and technical information on financial sanctions."
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "TI-NEWS",
+   "url": "https://www.transparency.org/en/press.rss",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:8:0: syntax error"
+  },
+  {
+   "id": "GFI",
+   "url": "https://gfintegrity.org/feed/",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2025-12-04",
+   "n_in_window": 0,
+   "items": [],
+   "fout": null
+  },
+  {
+   "id": "OCCRP",
+   "url": "https://www.occrp.org/en/daily.rss",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:2:0: syntax error"
+  },
+  {
+   "id": "CORRECTIV",
+   "url": "https://correctiv.org/feed/",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "IncompleteRead(80296 bytes read, 46993 more expected)"
+  },
+  {
+   "id": "ICIJ",
+   "url": "https://www.icij.org/feed/",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-06-08",
+   "n_in_window": 4,
+   "items": [
+    {
+     "titel": "Trump intelligence adviser previously helped father pursue millions from Kremlin-linked bank, leaked documents show",
+     "url": "https://www.icij.org/investigations/paradise-papers/trump-intelligence-adviser-previously-helped-father-pursue-millions-from-kremlin-linked-bank-leaked-documents-show/",
+     "datum": "2026-06-08",
+     "samenvatting": "Amaryllis Fox Kennedy, who recently stepped down from two senior administration posts, was serving as a CIA officer during the dispute."
+    },
+    {
+     "titel": "Chinese spies are posing as recruiters to target officials and journalists",
+     "url": "https://www.icij.org/investigations/china-targets/chinese-spies-are-posing-as-recruiters-to-target-officials-and-journalists/",
+     "datum": "2026-06-05",
+     "samenvatting": "The U.S. and its Five Eyes partners warned that Chinese military intelligence services were behind “cover companies” using job platforms to pry sensitive information from foreigners."
+    },
+    {
+     "titel": "Mexico seizes suspicious Keytruda in raid to dismantle counterfeit medication ring",
+     "url": "https://www.icij.org/investigations/cancer-calculus/mexico-seizes-suspicious-keytruda-in-raid-to-dismantle-counterfeit-medication-ring/",
+     "datum": "2026-06-04",
+     "samenvatting": "After ICIJ’s Cancer Calculus investigation exposed a market for falsified Keytruda, two sources confirmed Friday that Mexican authorities found vials labeled as the anti-cancer drug in the raid."
+    },
+    {
+     "titel": "Fidelity opened account for Epstein, even as outrage grew",
+     "url": "https://www.icij.org/news/2026/06/fidelity-opened-account-for-epstein-even-as-outrage-grew/",
+     "datum": "2026-06-01",
+     "samenvatting": "Asset manager Fidelity moved millions for company owned by disgraced financier Jeffrey Epstein just weeks before his 2019 arrest, documents reveal."
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "BELLINGCAT",
+   "url": "https://www.bellingcat.com/feed/",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-06-04",
+   "n_in_window": 1,
+   "items": [
+    {
+     "titel": "Tracing Digital Links Between Viory and Ruptly",
+     "url": "https://www.bellingcat.com/news/2026/06/04/viory-ruptly-rt-russia-uae-propaganda-video-news/",
+     "datum": "2026-06-04",
+     "samenvatting": "“In the age of misinformation, the line between fact and fiction is blurrier than ever.” “For those of us working in video news, verification isn’t a nice-to-have. It’s a necessity. It is how we protect the stories we help shape and how we earn and maintain trust in an increasingly chaotic informati"
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "TRAFFIC",
+   "url": "https://www.traffic.org/news/feed/",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:3:177: not well-formed (invalid token)"
+  },
+  {
+   "id": "EIA-INTL",
+   "url": "https://eia-international.org/feed/",
+   "status": "empty",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "feed parseert maar bevat 0 entries"
+  },
+  {
+   "id": "RUSI-CFCS",
+   "url": "https://www.rusi.org/rss/publications-and-commentary.xml",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:2:1458: not well-formed (invalid token)"
+  },
+  {
+   "id": "CHAINALYSIS",
+   "url": "https://www.chainalysis.com/blog/feed/",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-06-09",
+   "n_in_window": 4,
+   "items": [
+    {
+     "titel": "The Hidden Code Problem: How Unverified Smart Contracts Are Becoming a Preferred Target for Attackers",
+     "url": "https://www.chainalysis.com/blog/attackers-exploiting-unverified-smart-contracts/",
+     "datum": "2026-06-09",
+     "samenvatting": "Summary In the last six months, at least $36.7 million has been stolen from protocols whose source code was never… The post The Hidden Code Problem: How Unverified Smart Contracts Are Becoming a Preferred Target for Attackers appeared first on Chainalysis ."
+    },
+    {
+     "titel": "The $100 Million Crypto “Looksmaxxing” Boom: How Chinese Cartel Suppliers Pivoted to the Gray-Market Peptide Ecosystem",
+     "url": "https://www.chainalysis.com/blog/gray-market-peptide-crypto-boom/",
+     "datum": "2026-06-04",
+     "samenvatting": "Summary A $100 Million Shadow Economy: The on-chain gray-market peptide industry has experienced a breakout, surging past a $100 million… The post The $100 Million Crypto “Looksmaxxing” Boom: How Chinese Cartel Suppliers Pivoted to the Gray-Market Peptide Ecosystem appeared first on Chainalysis ."
+    },
+    {
+     "titel": "Agentic Payments Cross the Threshold: Inside x402’s Path to Meaningful Adoption",
+     "url": "https://www.chainalysis.com/blog/x402-agentic-payments-adoption/",
+     "datum": "2026-06-03",
+     "samenvatting": "This blog is a preview of our report, “The New Rails: How Digital Assets Are Reshaping the Foundations of Finance.”… The post Agentic Payments Cross the Threshold: Inside x402’s Path to Meaningful Adoption appeared first on Chainalysis ."
+    },
+    {
+     "titel": "OFAC Sanctions Nobitex and Major Iranian Cryptocurrency Exchanges in Sweeping Evasion Crackdown",
+     "url": "https://www.chainalysis.com/blog/ofac-sanctions-iranian-crypto-exchanges-june-2026/",
+     "datum": "2026-06-03",
+     "samenvatting": "Summary The Department of the Treasury’s Office of Foreign Assets Control (OFAC) designated four major Iranian cryptocurrency exchanges: Nobitex, Bitpin,… The post OFAC Sanctions Nobitex and Major Iranian Cryptocurrency Exchanges in Sweeping Evasion Crackdown appeared first on Chainalysis ."
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "ELLIPTIC",
+   "url": "https://www.elliptic.co/blog/rss.xml",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-06-09",
+   "n_in_window": 4,
+   "items": [
+    {
+     "titel": "Crypto regulatory affairs: New York and European supervisors to collaborate",
+     "url": "https://www.elliptic.co/blog/crypto-regulatory-affairs-ny-and-eba-to-collaborate",
+     "datum": "2026-06-09",
+     "samenvatting": "In this first June edition of crypto regulatory affairs, we will cover:"
+    },
+    {
+     "titel": "What banks need to know about GENIUS Act stablecoin compliance",
+     "url": "https://www.elliptic.co/blog/genius-act-stablecoin-compliance-for-banks",
+     "datum": "2026-06-04",
+     "samenvatting": "Under the GENIUS Act, every stablecoin your bank touches will be either permitted under federal law or not. Treating a non-permitted stablecoin as if it were permitted will be a compliance failure, but most existing compliance systems are not built to make the distinction yet."
+    },
+    {
+     "titel": "OFAC sanctions Nobitex and three other Iranian cryptoasset exchanges",
+     "url": "https://www.elliptic.co/blog/ofac-sanctions-nobitex-and-three-other-iranian-cryptoasset-exchanges",
+     "datum": "2026-06-03",
+     "samenvatting": "OFAC has designated Nobitex, Wallex, Bitpin and Ramzinex, plus Nobitex's chairman, two co-founders and its current CEO. Elliptic analysis shows that these exchanges have sent or received at least $40 billion in cryptoassets. Iranian cryptoasset exchanges were already blocked under existing sanctions"
+    },
+    {
+     "titel": "Crypto governance starts with the model that already works",
+     "url": "https://www.elliptic.co/blog/crypto-governance-starts-with-the-model-that-already-works",
+     "datum": "2026-06-02",
+     "samenvatting": "The cryptoasset industry has spent considerable energy arguing that cryptoassets are different enough to require a fundamentally new approach to governance. The argument runs that the technology is too novel, the markets too fast-moving or the business models too unusual to map onto the governance f"
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "ACAMS-TODAY",
+   "url": "https://www.acamstoday.org/feed/",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:26:85: not well-formed (invalid token)"
+  },
+  {
+   "id": "ACFE-INSIGHTS",
+   "url": "https://www.acfeinsights.com/feed",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+  },
+  {
+   "id": "GI-TOC",
+   "url": "https://globalinitiative.net/feed/",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-06-08",
+   "n_in_window": 6,
+   "items": [
+    {
+     "titel": "Commodity, currency, crime: How illicit gold markets are outpacing global responses",
+     "url": "https://globalinitiative.net/analysis/illicit-gold-markets-global-responses/",
+     "datum": "2026-06-08",
+     "samenvatting": "The post Commodity, currency, crime: How illicit gold markets are outpacing global responses appeared first on Global Initiative ."
+    },
+    {
+     "titel": "The Arconian operation",
+     "url": "https://globalinitiative.net/analysis/the-arconian-operation/",
+     "datum": "2026-06-08",
+     "samenvatting": "The post The Arconian operation appeared first on Global Initiative ."
+    },
+    {
+     "titel": "IASOC Annual Prizes 2026",
+     "url": "https://globalinitiative.net/announcements/iasoc-annual-prizes-2026/",
+     "datum": "2026-06-03",
+     "samenvatting": "The post IASOC Annual Prizes 2026 appeared first on Global Initiative ."
+    },
+    {
+     "titel": "¿De tal palo, tal astilla? Familias y gobernanza criminal",
+     "url": "https://globalinitiative.net/analysis/de-tal-palo-tal-astilla-familias-y-gobernanza-criminal/",
+     "datum": "2026-06-03",
+     "samenvatting": "The post ¿De tal palo, tal astilla? Familias y gobernanza criminal appeared first on Global Initiative ."
+    },
+    {
+     "titel": "Legal entry, irregular exit: The growing role of the Western Balkans in human smuggling into the EU",
+     "url": "https://globalinitiative.net/analysis/legal-entry-irregular-exit-the-growing-role-of-the-western-balkans-in-human-smuggling-into-the-eu/",
+     "datum": "2026-06-02",
+     "samenvatting": "The post Legal entry, irregular exit: The growing role of the Western Balkans in human smuggling into the EU appeared first on Global Initiative ."
+    },
+    {
+     "titel": "Why UN engagement matters for strengthening state resilience to organized crime",
+     "url": "https://globalinitiative.net/analysis/why-un-engagement-matters-for-strengthening-state-resilience-to-organized-crime/",
+     "datum": "2026-05-31",
+     "samenvatting": "The post Why UN engagement matters for strengthening state resilience to organized crime appeared first on Global Initiative ."
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "INSIGHTCRIME",
+   "url": "https://insightcrime.org/feed/",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-06-09",
+   "n_in_window": 7,
+   "items": [
+    {
+     "titel": "‘I’m Just a Regular Girl’: The ‘Narco’ Influencer Who Survived a Kidnapping",
+     "url": "https://insightcrime.org/news/im-just-a-regular-girl-the-narco-influencer-who-survived-a-kidnapping/",
+     "datum": "2026-06-09",
+     "samenvatting": "‘I’m Just a Regular Girl’: The ‘Narco’ Influencer Who Survived a Kidnapping Nicole Pardo, the influencer known as La Nicholette, was kidnapped in Sinaloa in early 2026. Her story—still full of unanswered questions—reveals the blurred lines of narco-influencer culture. The post ‘I’m Just a Regular Gi"
+    },
+    {
+     "titel": "Colombia Sentences ‘Otoniel’ as the Gulf Clan Continues to Expand",
+     "url": "https://insightcrime.org/news/colombia-sentences-otoniel-as-the-gulf-clan-continues-to-expand/",
+     "datum": "2026-06-08",
+     "samenvatting": "Colombia Sentences ‘Otoniel’ as the Gulf Clan Continues to Expand Otoniel was sentenced to 30 years in Colombia as the Gulf Clan he once led continues to expand under the leadership of \"Chiquito Malo.\" The post Colombia Sentences ‘Otoniel’ as the Gulf Clan Continues to Expand appeared first on InSig"
+    },
+    {
+     "titel": "First US Screwworm Case Spotlights Contraband Cattle in Mexico",
+     "url": "https://insightcrime.org/news/first-us-screwworm-case-contraband-cattle-mexico/",
+     "datum": "2026-06-05",
+     "samenvatting": "First US Screwworm Case Spotlights Contraband Cattle in Mexico The first case of the screwworm parasite in livestock has been detected in the United States, highlighting the ongoing consequences of contraband cattle smuggling from Central America into Mexico. The post First US Screwworm Case Spotlig"
+    },
+    {
+     "titel": "On the Radar: Trump in Colombia’s Elections, a Blow to Tren de Aragua, and Brazil’s Terrorist Tag",
+     "url": "https://insightcrime.org/news/on-the-radar-trump-in-colombias-elections-a-blow-to-tren-de-aragua-and-brazils-terrorist-tag/",
+     "datum": "2026-06-04",
+     "samenvatting": "On the Radar: Trump in Colombia’s Elections, a Blow to Tren de Aragua, and Brazil’s Terrorist Tag This week’s top three organized crime stories in On the Radar. The post On the Radar: Trump in Colombia’s Elections, a Blow to Tren de Aragua, and Brazil’s Terrorist Tag appeared first on InSight Crime "
+    },
+    {
+     "titel": "Violence Between Criminal Groups and LatAm Governments Has Risen Since Trump: Report",
+     "url": "https://insightcrime.org/news/how-has-donroe-doctrine-transformed-latam-security-policy/",
+     "datum": "2026-06-02",
+     "samenvatting": "Violence Between Criminal Groups and LatAm Governments Has Risen Since Trump: Report As US President Donald Trump attempts to sway security policy in Latin America and the Caribbean, a new report found that confrontations between security forces and criminal groups are on the rise, while criminal gr"
+    },
+    {
+     "titel": "The InSight Take: PCC and Red Command— Who Loses From US Terrorist Designations in Brazil?",
+     "url": "https://insightcrime.org/news/the-insight-take-pcc-and-red-command-who-loses-from-us-terrorist-designations-in-brazil/",
+     "datum": "2026-06-01",
+     "samenvatting": "The InSight Take: PCC and Red Command— Who Loses From US Terrorist Designations in Brazil? In this week's InSight Take, Managing Editor Deborah Bonello and Co-Director Steven Dudley discuss the recent US terrorist designations of the PCC and Red Command gangs, and how they affect Brazil's security l"
+    },
+    {
+     "titel": "US Terrorism Designations Will Hit the PCC’s Money—and Everyone Else’s",
+     "url": "https://insightcrime.org/news/us-terrorism-designations-will-hit-the-pccs-money-and-everyone-elses/",
+     "datum": "2026-06-01",
+     "samenvatting": "US Terrorism Designations Will Hit the PCC’s Money—and Everyone Else’s The addition of two Brazilian criminal groups to the US State Department’s list of foreign terrorist organizations could squeeze everyone doing business in the world’s tenth-largest economy—except for the criminals it is supposed"
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "TAXJUSTICE",
+   "url": "https://taxjustice.net/feed/",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-05-27",
+   "n_in_window": 0,
+   "items": [],
+   "fout": null
+  },
+  {
+   "id": "ICCT",
+   "url": "https://icct.nl/feed/",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "bozo: <unknown>:23:14: not well-formed (invalid token)"
+  }
+ ]
+}
