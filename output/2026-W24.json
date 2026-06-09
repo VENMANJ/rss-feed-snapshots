@@ -1,12 +1,12 @@
 {
  "week": "2026-W24",
- "gegenereerd_op": "2026-06-09T21:52:12Z",
+ "gegenereerd_op": "2026-06-09T22:07:15Z",
  "venster_dagen": 9,
  "cutoff": "2026-05-31",
- "n_feeds": 27,
- "n_ok": 16,
- "n_error": 11,
- "n_items_totaal": 90,
+ "n_feeds": 26,
+ "n_ok": 20,
+ "n_error": 5,
+ "n_items_totaal": 127,
  "bronnen": [
   {
    "id": "EUROPOL-NEWS",
@@ -16,15 +16,6 @@
    "n_in_window": 0,
    "items": [],
    "fout": null
-  },
-  {
-   "id": "EUROPOL-PUB",
-   "url": "https://www.europol.europa.eu/cms/api/rss/publications",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "HTTP Error 404: Not Found"
   },
   {
    "id": "FATF-NEWS",
@@ -162,30 +153,206 @@
   },
   {
    "id": "RIJKSOVERHEID-FIN",
-   "url": "https://feeds.rijksoverheid.nl/ministeries/ministerie-van-financien/nieuws.rss",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
+   "url": "https://www.rijksoverheid.nl/api/rss?query=%7B%22filters%22%3A%5B%7B%22field%22%3A%22content_type%22%2C%22values%22%3A%5B%22pro%3AnewsDocument%22%5D%2C%22type%22%3A%22all%22%7D%2C%7B%22field%22%3A%22ministry%22%2C%22values%22%3A%5B%22Ministerie%20van%20Financi%C3%ABn%22%5D%2C%22type%22%3A%22all%22%7D%5D%2C%22resultSearchTerm%22%3A%22%22%7D",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-05-28",
    "n_in_window": 0,
    "items": [],
-   "fout": "<urlopen error [Errno -2] Name or service not known>"
+   "fout": null
   },
   {
    "id": "RIJKSOVERHEID-JenV",
-   "url": "https://feeds.rijksoverheid.nl/ministeries/ministerie-van-justitie-en-veiligheid/nieuws.rss",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "<urlopen error [Errno -2] Name or service not known>"
+   "url": "https://www.rijksoverheid.nl/api/rss?query=%7B%22filters%22%3A%5B%7B%22field%22%3A%22content_type%22%2C%22values%22%3A%5B%22pro%3AnewsDocument%22%5D%2C%22type%22%3A%22all%22%7D%2C%7B%22field%22%3A%22ministry%22%2C%22values%22%3A%5B%22Ministerie%20van%20Justitie%20en%20Veiligheid%22%5D%2C%22type%22%3A%22all%22%7D%5D%2C%22resultSearchTerm%22%3A%22%22%7D",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-06-09",
+   "n_in_window": 9,
+   "items": [
+    {
+     "titel": "Kabinet komt met nieuw sirenenetwerk",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/06/09/kabinet-komt-met-nieuw-sirenenetwerk",
+     "datum": "2026-06-09",
+     "samenvatting": "Nederland krijgt een nieuw sirenenetwerk, als onderdeel van een keten dat militaire dreigingen kan detecteren en mensen kan waarschuwen. Het sirenenetwerk vervangt het bestaande waarschuwingssysteem, dat aan vervanging toe is. Het nieuwe systeem..."
+    },
+    {
+     "titel": "Verblijfsvergunning wordt eerder ingetrokken na misdrijf",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/06/09/verblijfsvergunning-wordt-eerder-ingetrokken-na-misdrijf",
+     "datum": "2026-06-09",
+     "samenvatting": "Vreemdelingen die een misdrijf begaan, moeten eerder hun verblijfsvergunning kunnen verliezen en Nederland verlaten. Minister Bart van den Brink (Asiel en Migratie) wil hiervoor de regelgeving aanpassen. Dat schrijft de bewindspersoon in een brief..."
+    },
+    {
+     "titel": "Kabinet versimpelt geldstroom voor gemeentelijke opvang",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/06/08/kabinet-versimpelt-geldstroom-voor-gemeentelijke-opvang",
+     "datum": "2026-06-08",
+     "samenvatting": "Het kabinet vernieuwt de tijdelijke bekostiging voor gemeentelijke opvang en huisvesting. Vanaf 1 juli 2026 vervangt één centrale regeling de verschillende losse regelingen voor Oekraïense ontheemden, asielzoekers en statushouders. De regeling..."
+    },
+    {
+     "titel": "VOG politiegegevens verplicht voor aanvullende functies bij het Openbaar Ministerie",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/06/08/vog-politiegegevens-verplicht-voor-aanvullende-functies-bij-het-openbaar-ministerie",
+     "datum": "2026-06-08",
+     "samenvatting": "Vanaf 1 juli 2026 wordt de VOG politiegegevens verplicht voor een aantal aanvullende functies bij het Openbaar Ministerie (OM). Het gaat hier om functies waarvoor een hogere mate van integriteit is vereist. Dit betekent dat altijd politiegegevens..."
+    },
+    {
+     "titel": "Italië en Nederland werken nog nauwer samen voor grip op migratie",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/06/04/italie-en-nederland-werken-nog-nauwer-samen-voor-grip-op-migratie",
+     "datum": "2026-06-03",
+     "samenvatting": "Minister Bart van den Brink van Asiel en Migratie en de Italiaanse minister Matteo Piantedosi hebben afgesproken om de samenwerking tussen Italië en Nederland ten aanzien van migratie te intensiveren. Naast het implementeren van het Asiel- en..."
+    },
+    {
+     "titel": "Meer verkeersovertredingen geconstateerd voor gevaarlijk rijgedrag",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/06/03/meer-verkeersovertredingen-geconstateerd-voor-gevaarlijk-rijgedrag",
+     "datum": "2026-06-03",
+     "samenvatting": "Met 759 verkeersdoden in 2025, het hoogste aantal in 20 jaar, staat de verkeersveiligheid in Nederland onder druk. Handhaving is een essentieel middel om de verkeersveiligheid te waarborgen en te verbeteren. De cijfers over de eerste 4 maanden van..."
+    },
+    {
+     "titel": "EU maakt terugkeer van vreemdelingen zonder rechtmatig verblijf sneller en effectiever",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/06/01/eu-maakt-terugkeer-van-vreemdelingen-zonder-rechtmatig-verblijf-sneller-en-effectiever",
+     "datum": "2026-06-01",
+     "samenvatting": "Er is een politiek akkoord bereikt tussen de EU-lidstaten en het Europees Parlement over het voorstel van de Europese Commissie voor de Terugkeerverordening. De Terugkeerverordening gaat zorgen voor meer mogelijkheden voor terugkeer van mensen die..."
+    },
+    {
+     "titel": "Voorlopig geen besluit op Libanese asielaanvragen",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/06/01/voorlopig-geen-besluit-op-libanese-asielaanvragen",
+     "datum": "2026-06-01",
+     "samenvatting": "Vanwege de fragiele veiligheidssituatie in Libanon stelt minister Bart van den Brink (Asiel en Migratie) een besluit- en vertrekmoratorium voor het land in. Dit schrijft de minister in een brief aan de Tweede Kamer. Het moratorium gaat per direct..."
+    },
+    {
+     "titel": "De asielinstroom van week 22 bedroeg ongeveer 800",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/06/01/de-asielinstroom-van-week-22-bedroeg-ongeveer-800",
+     "datum": "2026-06-01",
+     "samenvatting": "De asielinstroom van week 22, bestaande uit eerste asielaanvragen, herhaalde asielaanvragen, hervestiging, herplaatsing en nareizigers, bedroeg ongeveer 800."
+    }
+   ],
+   "fout": null
   },
   {
    "id": "OM-NL",
-   "url": "https://www.om.nl/actueel/nieuws/rss",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "HTTP Error 404: Not Found"
+   "url": "https://www.om.nl/api/rss?query=%7B%22filters%22%3A%5B%7B%22field%22%3A%22content_type%22%2C%22values%22%3A%5B%22pro%3AnewsDocument%22%5D%2C%22type%22%3A%22all%22%7D%5D%2C%22resultSearchTerm%22%3A%22%22%7D",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-06-09",
+   "n_in_window": 20,
+   "items": [
+    {
+     "titel": "OM eist 4 jaar gevangenisstraf tegen mannen die minderjarige verkrachtten",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/09/om-eist-4-jaar-voor-mannen-die-minderjarige-verkrachten",
+     "datum": "2026-06-09",
+     "samenvatting": "Het Openbaar Ministerie (OM) vindt twee mannen schuldig aan de verkrachting van een minderjarig slachtoffer. In plaats van haar na een avond stappen veilig naar huis te brengen, misbruikten zij haar vertrouwen en kwetsbaarheid, zo stelt de..."
+    },
+    {
+     "titel": "Gevangenisstraffen geëist na dodelijke schietpartij Den Haag",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/08/gevangenisstraffen-geeist-na-dodelijke-schietpartij-den-haag",
+     "datum": "2026-06-08",
+     "samenvatting": "Het Openbaar Ministerie eist 16 jaar gevangenisstraf tegen een 25-jarige man uit Den Haag, die verdacht wordt van het medeplegen van gekwalificeerde doodslag. Een 23-jarige medeverdachte uit Den Haag hoort 13 jaar gevangenisstraf tegen zich eisen..."
+    },
+    {
+     "titel": "Douane vindt 36 kilo hasj in haven Vlissingen",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/05/douane-vindt-36-kilo-hasj-in-haven-vlissingen",
+     "datum": "2026-06-05",
+     "samenvatting": "De Douane heeft op 4 juni 36 kilo hasj op een schip in de haven van Vlissingen gevonden. De drugs zaten in zes pakketten verstopt tussen goederen met bestemming Suriname."
+    },
+    {
+     "titel": "Aanhouding in verband met explosie Amsterdam",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/05/aanhouding-in-verband-met-explosie-amsterdam",
+     "datum": "2026-06-05",
+     "samenvatting": "Op dinsdag 2 juni is in Amsterdam een 16-jarige verdachte aangehouden in verband met een explosie op 16 maart bij een kantorencomplex op de Amsterdamse Zuidas. De jongen wordt ervan verdacht betrokken te zijn bij het voorbereiden van deze aanslag,..."
+    },
+    {
+     "titel": "Uitreizigster uit Geleen aangehouden op Schiphol",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/05/uitreizigster-uit-geleen-aangehouden-op-schiphol",
+     "datum": "2026-06-05",
+     "samenvatting": "Een 35-jarige vrouw uit Geleen die in 2015 afreisde naar Syrië is woensdag 3 juni bij terugkeer in Nederland door de Koninklijke Marechaussee (KMar) aangehouden. Ze wordt verdacht van het voorbereiden en bevorderen van terroristische misdrijven..."
+    },
+    {
+     "titel": "OM eist twee maal levenslang en gevangenisstraffen van 20 en 25 jaar voor vier verdachten overvallenbende West-Friesland",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/04/om-eist-twee-maal-levenslang-en-gevangenisstraffen-van-20-en-25-jaar-voor-vier-verdachten-overvallenbende-west-friesland",
+     "datum": "2026-06-04",
+     "samenvatting": "Het Openbaar Ministerie (OM) eist in hoger beroep celstraffen variërend van 20 jaar tot levenslang voor vier verdachten. Zij worden ervan verdacht samen en met anderen, zeven overvallen te hebben gepleegd. Daarbij gebruikten ze extreem geweld,..."
+    },
+    {
+     "titel": "OM eist gevangenisstraf wegens dodelijk ongeval Noordbeemster",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/04/om-eist-gevangenisstraf-wegens-dodelijk-ongeval-noordbeemster",
+     "datum": "2026-06-04",
+     "samenvatting": "Het Openbaar Ministerie (OM) heeft vandaag een gevangenisstraf van 40 maanden waarvan 10 maanden voorwaardelijk met een proeftijd van 2 jaar geëist tegen een 28-jarige man uit Alkmaar, die op 11 februari 2024 een dodelijk ongeval veroorzaakte...."
+    },
+    {
+     "titel": "OM niet in beroep in Weski-zaak",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/04/om-niet-in-beroep-in-weski-zaak",
+     "datum": "2026-06-04",
+     "samenvatting": "Het Openbaar Ministerie (OM) gaat niet in hoger beroep in de strafzaak tegen voormalig strafrechtadvocaat Inez Weski. De 71-jarige verdachte werd op 21 mei 2026 door de rechtbank Rotterdam veroordeeld voor deelname aan de criminele organisatie van..."
+    },
+    {
+     "titel": "Verdachten van kindermishandeling Stadskanaal langer vast",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/04/verdachten-van-kindermishandeling-stadskanaal-langer-vast",
+     "datum": "2026-06-04",
+     "samenvatting": "De raadkamer van de rechtbank Noord-Nederland heeft op 3 juni besloten dat twee vrouwen van 31 en 34 jaar uit Stadskanaal 90 dagen langer vast blijven zitten."
+    },
+    {
+     "titel": "OM eist celstraffen wegens mishandeling met discriminatoir oogmerk",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/03/om-eist-celstraffen-wegens-mishandeling-met-discriminatoir-oogmerk",
+     "datum": "2026-06-03",
+     "samenvatting": "Twee mannen van 25 jaar oud uit Almere en uit Amsterdam worden ervan verdacht in de nacht van 27 op 28 november een man te hebben mishandeld en daarbij discriminerende opmerkingen te hebben gemaakt. Dat gebeurde na een bijeenkomst in een gebouw..."
+    },
+    {
+     "titel": "OM eist gevangenisstraf voor verkrachting vijf vrouwen in Nijmegen",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/03/om-eist-gevangenisstraf-voor-verkrachting-vijf-vrouwen-in-nijmegen",
+     "datum": "2026-06-03",
+     "samenvatting": "Het Openbaar Ministerie Oost-Nederland eist een gevangenisstraf van 8 jaar tegen een 23-jarige Nijmegenaar. Hij wordt verdacht van het verkrachten van vijf vrouwen, in de periode tussen juli 2024 en mei 2025. Wat telkens als een one night stand..."
+    },
+    {
+     "titel": "Meer verkeersovertredingen geconstateerd voor gevaarlijk rijgedrag",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/03/meer-verkeersovertredingen-geconstateerd-voor-gevaarlijk-rijgedrag",
+     "datum": "2026-06-03",
+     "samenvatting": "Met 759 verkeersdoden in 2025, het hoogste aantal in twintig jaar, staat de verkeersveiligheid in Nederland onder druk. Handhaving is een essentieel middel om de verkeersveiligheid te waarborgen en te verbeteren. De cijfers over de eerste vier..."
+    },
+    {
+     "titel": "OM: 13 jaar gevangenisstraf voor doodsteken man na zakelijk conflict",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/03/om-13-jaar-gevangenisstraf-voor-doodsteken-man-na-zakelijk-conflict",
+     "datum": "2026-06-03",
+     "samenvatting": "Het Openbaar Ministerie (OM) eist 13 jaar gevangenisstraf tegen een 44-jarige man uit Utrecht die verdacht wordt van het doodsteken van een man op 19 juli 2025 in Utrecht. Het dodelijke incident zou het gevolg zijn van een zakelijk conflict."
+    },
+    {
+     "titel": "Verdachte aangehouden voor diefstal uit graven",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/03/verdachte-aangehouden-voor-diefstal-uit-graven",
+     "datum": "2026-06-03",
+     "samenvatting": "Een 60-jarige man uit Den Haag is dinsdag 26 mei aangehouden op verdenking van diefstal en witwassen. De man zou tijdens zijn werk op een Haagse begraafplaats spullen hebben meegenomen uit graven."
+    },
+    {
+     "titel": "Man (50) door Turkije uitgeleverd in witwasonderzoek",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/02/man-50-door-turkije-uitgeleverd-in-witwasonderzoek",
+     "datum": "2026-06-02",
+     "samenvatting": "Een 50-jarige Nederlander is door Turkije uitgeleverd aan Nederland, waar hij zal worden vervolgd voor witwassen van een aanzienlijke hoeveelheid geld, goud en horloges. Onder begeleiding van de Koninklijke Marechaussee (KMar) is hij vandaag..."
+    },
+    {
+     "titel": "Vernederende mishandeling en bedreiging met gasalarmpistool: OM eist celstraffen tegen verdachten",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/02/vernederende-mishandeling-en-bedreiging-met-gasalarmpistool-om-eist-celstraffen-tegen-verdachten",
+     "datum": "2026-06-02",
+     "samenvatting": "Het slachtoffer is op 2 februari vorig jaar in de veronderstelling dat hij met de vrouwelijke verdachte bij haar thuis in Deventer een film zou gaan kijken en wat zou gaan drinken. In plaats daarvan komt hij in een nachtmerrie terecht: eenmaal in..."
+    },
+    {
+     "titel": "Ervaringen procesdeelnemers met de OM Strafbeschikking",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/02/ervaringen-procesdeelnemers-met-de-om-strafbeschikking",
+     "datum": "2026-06-02",
+     "samenvatting": "Maandag 1 juni verscheen het WODC-rapport ‘Ervaringen van procesdeelnemers met de OM-strafbeschikking’. Het WODC concludeert dat procesdeelnemers in de praktijk geen grote problemen signaleren rond de OM-strafbeschikkingsprocedure. De..."
+    },
+    {
+     "titel": "OM eist vier jaar gevangenisstraf waarvan één jaar voorwaardelijk tegen verdachte veroorzaken explosie appartementencomplex Heerhugowaard",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/02/om-eist-vier-jaar-gevangenisstraf-waarvan-een-jaar-voorwaardelijk-tegen-verdachte-veroorzaken-explosie-appartementencomplex-heerhugowaard",
+     "datum": "2026-06-02",
+     "samenvatting": "De officier van justitie heeft op dinsdag 2 juni vier jaar gevangenisstraf, waarvan één jaar voorwaardelijk, geëist tegen een 20-jarige man uit Opmeer die ervan wordt verdacht op 10 april 2025 een explosie te hebben veroorzaakt met een brand tot..."
+    },
+    {
+     "titel": "Tot 25 jaar cel geëist voor dodelijke beroving Kerkrade",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/02/tot-25-jaar-cel-geeist-voor-dodelijke-beroving-kerkrade",
+     "datum": "2026-06-02",
+     "samenvatting": "Het Openbaar Ministerie Limburg (OM) eiste vandaag celstraffen van 25 en 24 jaar tegen een vader en zoon die verdacht worden van betrokkenheid bij een brute beroving op de Wiebachstraat dichtbij de Roda J.C. Ring in Kerkrade. Bij de beroving komt..."
+    },
+    {
+     "titel": "OM eist vijftien jaar cel tegen twee mannen verdacht van poging liquidatie in Zeeheldenbuurt",
+     "url": "https://www.om.nl/actueel/nieuws/2026/06/02/om-eist-vijftien-jaar-cel-tegen-twee-mannen-verdacht-van-poging-liquidatie-in-zeeheldenbuurt",
+     "datum": "2026-06-02",
+     "samenvatting": "De officier van justitie heeft vandaag een onvoorwaardelijke celstraf van vijftien jaar geëist tegen twee mannen van inmiddels 23 en 26 jaar uit Almere. De mannen worden ervan verdacht op 17 september 2025 getracht te hebben in de Amsterdamse..."
+    }
+   ],
+   "fout": null
   },
   {
    "id": "UK-NCA",
@@ -553,11 +720,11 @@
   {
    "id": "EIA-INTL",
    "url": "https://eia-international.org/feed/",
-   "status": "error",
+   "status": "empty",
    "laatste_pubdate_gezien": null,
    "n_in_window": 0,
    "items": [],
-   "fout": "HTTP Error 403: Forbidden"
+   "fout": "feed parseert maar bevat 0 entries"
   },
   {
    "id": "RUSI-CFCS",
@@ -788,11 +955,60 @@
   {
    "id": "INSIGHTCRIME",
    "url": "https://insightcrime.org/feed/",
-   "status": "error",
-   "laatste_pubdate_gezien": null,
-   "n_in_window": 0,
-   "items": [],
-   "fout": "HTTP Error 429: Too Many Requests"
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-06-09",
+   "n_in_window": 8,
+   "items": [
+    {
+     "titel": "Northeast Cartel",
+     "url": "https://insightcrime.org/mexico-organized-crime-news/northeast-cartel/",
+     "datum": "2026-06-09",
+     "samenvatting": "Northeast Cartel The Northeast Cartel (Cartel del Noreste - CDN) is a Mexican criminal group involved in drug trafficking, extortion, kidnapping, human trafficking, and migrant smuggling. The organization emerged following the fragmentation of the Zetas and inherited part of the criminal infrastruct"
+    },
+    {
+     "titel": "‘I’m Just a Regular Girl’: The ‘Narco’ Influencer Who Survived a Kidnapping",
+     "url": "https://insightcrime.org/news/im-just-a-regular-girl-the-narco-influencer-who-survived-a-kidnapping/",
+     "datum": "2026-06-09",
+     "samenvatting": "‘I’m Just a Regular Girl’: The ‘Narco’ Influencer Who Survived a Kidnapping Nicole Pardo, the influencer known as La Nicholette, was kidnapped in Sinaloa in early 2026. Her story—still full of unanswered questions—reveals the blurred lines of narco-influencer culture. The post ‘I’m Just a Regular Gi"
+    },
+    {
+     "titel": "Colombia Sentences ‘Otoniel’ as the Gulf Clan Continues to Expand",
+     "url": "https://insightcrime.org/news/colombia-sentences-otoniel-as-the-gulf-clan-continues-to-expand/",
+     "datum": "2026-06-08",
+     "samenvatting": "Colombia Sentences ‘Otoniel’ as the Gulf Clan Continues to Expand Otoniel was sentenced to 30 years in Colombia as the Gulf Clan he once led continues to expand under the leadership of \"Chiquito Malo.\" The post Colombia Sentences ‘Otoniel’ as the Gulf Clan Continues to Expand appeared first on InSig"
+    },
+    {
+     "titel": "First US Screwworm Case Spotlights Contraband Cattle in Mexico",
+     "url": "https://insightcrime.org/news/first-us-screwworm-case-contraband-cattle-mexico/",
+     "datum": "2026-06-05",
+     "samenvatting": "First US Screwworm Case Spotlights Contraband Cattle in Mexico The first case of the screwworm parasite in livestock has been detected in the United States, highlighting the ongoing consequences of contraband cattle smuggling from Central America into Mexico. The post First US Screwworm Case Spotlig"
+    },
+    {
+     "titel": "On the Radar: Trump in Colombia’s Elections, a Blow to Tren de Aragua, and Brazil’s Terrorist Tag",
+     "url": "https://insightcrime.org/news/on-the-radar-trump-in-colombias-elections-a-blow-to-tren-de-aragua-and-brazils-terrorist-tag/",
+     "datum": "2026-06-04",
+     "samenvatting": "On the Radar: Trump in Colombia’s Elections, a Blow to Tren de Aragua, and Brazil’s Terrorist Tag This week’s top three organized crime stories in On the Radar. The post On the Radar: Trump in Colombia’s Elections, a Blow to Tren de Aragua, and Brazil’s Terrorist Tag appeared first on InSight Crime "
+    },
+    {
+     "titel": "Violence Between Criminal Groups and LatAm Governments Has Risen Since Trump: Report",
+     "url": "https://insightcrime.org/news/how-has-donroe-doctrine-transformed-latam-security-policy/",
+     "datum": "2026-06-02",
+     "samenvatting": "Violence Between Criminal Groups and LatAm Governments Has Risen Since Trump: Report As US President Donald Trump attempts to sway security policy in Latin America and the Caribbean, a new report found that confrontations between security forces and criminal groups are on the rise, while criminal gr"
+    },
+    {
+     "titel": "The InSight Take: PCC and Red Command— Who Loses From US Terrorist Designations in Brazil?",
+     "url": "https://insightcrime.org/news/the-insight-take-pcc-and-red-command-who-loses-from-us-terrorist-designations-in-brazil/",
+     "datum": "2026-06-01",
+     "samenvatting": "The InSight Take: PCC and Red Command— Who Loses From US Terrorist Designations in Brazil? In this week's InSight Take, Managing Editor Deborah Bonello and Co-Director Steven Dudley discuss the recent US terrorist designations of the PCC and Red Command gangs, and how they affect Brazil's security l"
+    },
+    {
+     "titel": "US Terrorism Designations Will Hit the PCC’s Money—and Everyone Else’s",
+     "url": "https://insightcrime.org/news/us-terrorism-designations-will-hit-the-pccs-money-and-everyone-elses/",
+     "datum": "2026-06-01",
+     "samenvatting": "US Terrorism Designations Will Hit the PCC’s Money—and Everyone Else’s The addition of two Brazilian criminal groups to the US State Department’s list of foreign terrorist organizations could squeeze everyone doing business in the world’s tenth-largest economy—except for the criminals it is supposed"
+    }
+   ],
+   "fout": null
   },
   {
    "id": "TAXJUSTICE",
