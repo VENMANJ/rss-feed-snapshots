@@ -7,7 +7,7 @@ output/latest.json. Per source it also records the most recent publication
 date seen on the feed (proof for "genuinely no items this week") and a
 status (ok / empty / error) so dead feeds surface immediately.
 """
-import json, datetime, time, html, re, sys
+import json, datetime, time, html, re, sys, urllib.request, gzip, io
 from pathlib import Path
 
 import feedparser
@@ -35,11 +35,37 @@ def entry_date(e):
     return None
 
 
+HEADERS = {
+    "User-Agent": UA,
+    "Accept": ("application/rss+xml, application/atom+xml, application/xml;q=0.9, "
+               "text/xml;q=0.8, */*;q=0.7"),
+    "Accept-Language": "en,nl;q=0.8",
+    "Accept-Encoding": "gzip",
+}
+
+
+def _download(url, pogingen=2):
+    """Feed-bytes ophalen met browser-achtige headers; 1 retry bij netwerkfouten."""
+    laatste = None
+    for _ in range(pogingen):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=30) as r:
+                raw = r.read()
+                if r.headers.get("Content-Encoding") == "gzip" or raw[:2] == b"\x1f\x8b":
+                    raw = gzip.GzipFile(fileobj=io.BytesIO(raw)).read()
+                return raw
+        except Exception as ex:  # noqa: BLE001
+            laatste = ex
+            time.sleep(3)
+    raise laatste
+
+
 def fetch_source(src, cutoff):
     rec = {"id": src["id"], "url": src["url"], "status": "ok",
            "laatste_pubdate_gezien": None, "n_in_window": 0, "items": [], "fout": None}
     try:
-        d = feedparser.parse(src["url"], agent=UA)
+        d = feedparser.parse(_download(src["url"]))
         if d.bozo and not d.entries:
             rec["status"] = "error"
             rec["fout"] = f"bozo: {getattr(d, 'bozo_exception', 'parse error')}"[:200]
