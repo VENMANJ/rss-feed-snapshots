@@ -1,0 +1,873 @@
+{
+ "week": "2026-W41",
+ "gegenereerd_op": "2026-10-11T21:01:10Z",
+ "venster_dagen": 9,
+ "cutoff": "2026-10-02",
+ "n_feeds": 26,
+ "n_ok": 19,
+ "n_error": 6,
+ "n_items_totaal": 102,
+ "bronnen": [
+  {
+   "id": "EUROPOL-NEWS",
+   "url": "https://www.europol.europa.eu/cms/api/rss/news",
+   "status": "ok",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": null
+  },
+  {
+   "id": "FATF-NEWS",
+   "url": "https://www.fatf-gafi.org/en/publications/All-Publications.html?hf=10&b=0&s=desc(fatfdocument_date)",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "HTTP Error 403: Forbidden"
+  },
+  {
+   "id": "DNB-NIEUWS",
+   "url": "https://www.dnb.nl/rss/persberichten/",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "HTTP Error 403: Forbidden"
+  },
+  {
+   "id": "DNB-PUB",
+   "url": "https://www.dnb.nl/rss/publicaties/",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "HTTP Error 403: Forbidden"
+  },
+  {
+   "id": "EBA-NEWS",
+   "url": "https://www.eba.europa.eu/news-press/news/rss.xml",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-10-09",
+   "n_in_window": 1,
+   "items": [
+    {
+     "titel": "EBA CRR3/CRD6 dashboard shows banks maintain capital levels well above minimum requirements under the fully loaded Basel III framework",
+     "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-crr3crd6-dashboard-shows-banks-maintain-capital-levels-well-above-minimum-requirements-under",
+     "datum": "2026-10-09",
+     "samenvatting": "The European Banking Authority (EBA) today published its CRR3/CRD6 dashboard as of Q2 2026 for 129 banks at the highest level of consolidation across the EU/EEA. EU/EEA banks maintain capital levels well above minimum requirements under the fully loaded CRR3 framework, with an average Common Equity "
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "ECB-NEWS",
+   "url": "https://www.ecb.europa.eu/rss/press.html",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-10-08",
+   "n_in_window": 9,
+   "items": [
+    {
+     "titel": "Meeting of 9-10 September 2026",
+     "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html",
+     "datum": "2026-10-08",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Piero Cipollone: Interview with Corriere della Sera",
+     "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261008~3184e7d0d0.en.html",
+     "datum": "2026-10-08",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Results of the September 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
+     "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261007~6447350434.en.html",
+     "datum": "2026-10-07",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Frank Elderson: Effective supervision through timely remediation",
+     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006_1~0df91e4e44.en.html",
+     "datum": "2026-10-06",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Piero Cipollone: Money in the digital age: digital euro, tokenisation and the role of central banks",
+     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006~0da978f159.en.html",
+     "datum": "2026-10-06",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Philip R. Lane: Interview with Ansa",
+     "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html",
+     "datum": "2026-10-06",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
+     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html",
+     "datum": "2026-10-05",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+     "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261002~54c6b5672b.en.html",
+     "datum": "2026-10-02",
+     "samenvatting": ""
+    },
+    {
+     "titel": "Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking",
+     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261002_1~419efe18e0.en.html",
+     "datum": "2026-10-02",
+     "samenvatting": ""
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "EUCOUNCIL-PRESS",
+   "url": "https://www.consilium.europa.eu/en/press/press-releases/?filters=2031&rss",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "HTTP Error 403: Forbidden"
+  },
+  {
+   "id": "RIJKSOVERHEID-FIN",
+   "url": "https://www.rijksoverheid.nl/api/rss?query=%7B%22filters%22%3A%5B%7B%22field%22%3A%22content_type%22%2C%22values%22%3A%5B%22pro%3AnewsDocument%22%5D%2C%22type%22%3A%22all%22%7D%2C%7B%22field%22%3A%22ministry%22%2C%22values%22%3A%5B%22Ministerie%20van%20Financi%C3%ABn%22%5D%2C%22type%22%3A%22all%22%7D%5D%2C%22resultSearchTerm%22%3A%22%22%7D",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-10-07",
+   "n_in_window": 2,
+   "items": [
+    {
+     "titel": "Brede ondersteuning verbeterd en verduidelijkt",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/07/brede-ondersteuning-verbeterd-en-verduidelijkt",
+     "datum": "2026-10-07",
+     "samenvatting": "Deze week is het voorstel tot wijziging van de Wet hersteloperatie toeslagen naar de Tweede Kamer gestuurd. In het wetvoorstel zijn de stappen, termijnen en vormen van hulp duidelijk vastgelegd. Dit is de uitkomst van het bestuurlijk akkoord..."
+    },
+    {
+     "titel": "Kabinet: Nederland in 2035 leidend met quantum én weerbaar tegen risico’s",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/05/kabinet-nederland-in-2035-leidend-met-quantum-en-weerbaar-tegen-risicos",
+     "datum": "2026-10-05",
+     "samenvatting": "Quantumtechnologie biedt zowel kansen als risico’s. Daarom wil het kabinet zich volop richten op innovatie en economische groei. En tegelijkertijd inzetten op het beschermen van publieke waarden, veiligheid en strategische autonomie. Het doel is..."
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "RIJKSOVERHEID-JenV",
+   "url": "https://www.rijksoverheid.nl/api/rss?query=%7B%22filters%22%3A%5B%7B%22field%22%3A%22content_type%22%2C%22values%22%3A%5B%22pro%3AnewsDocument%22%5D%2C%22type%22%3A%22all%22%7D%2C%7B%22field%22%3A%22ministry%22%2C%22values%22%3A%5B%22Ministerie%20van%20Justitie%20en%20Veiligheid%22%5D%2C%22type%22%3A%22all%22%7D%5D%2C%22resultSearchTerm%22%3A%22%22%7D",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-10-09",
+   "n_in_window": 4,
+   "items": [
+    {
+     "titel": "Wetsvoorstel voor hardere aanpak schaduwvloot naar Tweede Kamer",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/09/wetsvoorstel-voor-hardere-aanpak-schaduwvloot-naar-tweede-kamer",
+     "datum": "2026-10-09",
+     "samenvatting": "Een wetswijziging om de Russische schaduwvloot harder aan te kunnen pakken is vandaag naar de Tweede Kamer gestuurd. De schaduwvloot is een netwerk van oude tankers waarmee Rusland internationale sancties ontwijkt, en die vaak zonder vlag of met..."
+    },
+    {
+     "titel": "Minister Van den Brink presenteert Wet strafbaarstelling terugkeerfrustreerders",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/07/minister-van-den-brink-presenteert-wet-strafbaarstelling-terugkeerfrustreerders",
+     "datum": "2026-10-07",
+     "samenvatting": "Terugkeer frustreren als je niet in Nederland mag blijven wordt strafbaar. Dat moet de Wet strafbaarstelling terugkeerfrustreerders regelen. Dit conceptwetsvoorstel richt zich op de vreemdelingen zonder rechtmatig verblijf die hun vertrek..."
+    },
+    {
+     "titel": "De asielinstroom van week 40 bedroeg ongeveer 860",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/05/de-asielinstroom-van-week-40-bedroeg-ongeveer-860",
+     "datum": "2026-10-05",
+     "samenvatting": "De asielinstroom van week 40, bestaande uit eerste asielaanvragen, herhaalde asielaanvragen, hervestiging, herplaatsing en nareizigers, bedroeg circa 860. De totale asielinstroom is als volgt onderverdeeld: • 530 eerste aanvragen, • ..."
+    },
+    {
+     "titel": "Kabinet: Nederland in 2035 leidend met quantum én weerbaar tegen risico’s",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/05/kabinet-nederland-in-2035-leidend-met-quantum-en-weerbaar-tegen-risicos",
+     "datum": "2026-10-05",
+     "samenvatting": "Quantumtechnologie biedt zowel kansen als risico’s. Daarom wil het kabinet zich volop richten op innovatie en economische groei. En tegelijkertijd inzetten op het beschermen van publieke waarden, veiligheid en strategische autonomie. Het doel is..."
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "OM-NL",
+   "url": "https://www.om.nl/api/rss?query=%7B%22filters%22%3A%5B%7B%22field%22%3A%22content_type%22%2C%22values%22%3A%5B%22pro%3AnewsDocument%22%5D%2C%22type%22%3A%22all%22%7D%5D%2C%22resultSearchTerm%22%3A%22%22%7D",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-10-09",
+   "n_in_window": 12,
+   "items": [
+    {
+     "titel": "Agent niet vervolgd na neerschieten man in woning in Tiel",
+     "url": "https://www.om.nl/actueel/nieuws/2026/10/09/agent-niet-vervolgd-na-neerschieten-man-in-woning-in-tiel",
+     "datum": "2026-10-09",
+     "samenvatting": "De agent die betrokken was bij een schietincident in Tiel in april dit jaar wordt niet strafrechtelijk vervolgd. Op basis van het onderzoek dat is uitgevoerd door de Rijksrecherche concludeert het Openbaar Ministerie Oost-Nederland dat het lid van..."
+    },
+    {
+     "titel": "OM eist gevangenisstraf en beroepsverbod tegen dansleraar voor ontucht",
+     "url": "https://www.om.nl/actueel/nieuws/2026/10/08/om-eist-gevangenisstraf-en-beroepsverbod-tegen-dansleraar-voor-ontucht",
+     "datum": "2026-10-08",
+     "samenvatting": "Het Openbaar Ministerie (OM) in hoger beroep eist een gevangenisstraf van 34 maanden waarvan 6 maanden voorwaardelijk en een beroepsverbod van 5 jaar tegen een 42-jarige man uit Noord-Holland. Hij wordt ervan verdacht dat hij als dansleraar..."
+    },
+    {
+     "titel": "Man die cameraploeg bedreigde veroordeeld tot 4 maanden celstraf",
+     "url": "https://www.om.nl/actueel/nieuws/2026/10/08/man-die-cameraploeg-bedreigd-veroordeeld-tot-4-maanden-celstraf",
+     "datum": "2026-10-08",
+     "samenvatting": "Vandaag stond een 41-jarige man zonder vaste woon- of verblijfplaats op een snelrechtzitting op verdenking van het bedreigen van een cameraploeg van Powned. Dat gebeurde toen de cameraploeg in het Amsterdamse Oosterpark een item aan het draaien..."
+    },
+    {
+     "titel": "OM eist 2,5 jaar cel voor jarenlang bezit kinderpornografie en deelname criminele organisatie",
+     "url": "https://www.om.nl/actueel/nieuws/2026/10/08/om-eist-25-jaar-cel-voor-jarenlang-bezit-kinderpornografie-en-deelname-criminele-organisatie",
+     "datum": "2026-10-08",
+     "samenvatting": "Het Openbaar Ministerie (OM) eist een celstraf van 2,5 jaar (waarvan een half jaar voorwaardelijk) tegen een 36-jarige man uit de Gelderse gemeente Oude IJsselstreek. De man wordt verdacht van het bezit van grote hoeveelheden beeldmateriaal van..."
+    },
+    {
+     "titel": "Reactie College op onderzoeksrapport ICT-inbreuk 2025",
+     "url": "https://www.om.nl/actueel/nieuws/2026/10/08/reactie-college-op-onderzoeksrapport-ict-inbreuk-2025",
+     "datum": "2026-10-08",
+     "samenvatting": "Vandaag is het rapport Van ‘brand meester’ naar ‘brandveilig’ over de ICT-inbreuk bij het Openbaar Ministerie in de zomer van 2025 naar de Tweede Kamer gestuurd. Het College van procureurs-generaal is de commissie onder voorzitterschap van Jaap..."
+    },
+    {
+     "titel": "Maximale taakstraf en ruim 2 miljoen euro afgepakt",
+     "url": "https://www.om.nl/actueel/nieuws/2026/10/07/maximale-taakstraf-en-ruim-2-miljoen-euro-afgepakt",
+     "datum": "2026-10-07",
+     "samenvatting": "Het Openbaar Ministerie (OM) heeft aan een 46-jarige verdachte een strafbeschikking in de vorm van de maximale taakstraf van 180 uur opgelegd. Daarnaast moet de man afstand doen van in totaal 2,1 miljoen euro waarop door het OM beslag is gelegd...."
+    },
+    {
+     "titel": "OM eist celstraffen voor cocaïnetransporten tegen drie taxichauffeurs",
+     "url": "https://www.om.nl/actueel/nieuws/2026/10/07/om-eist-celstraffen-voor-cocainetransporten-tegen-drie-taxichauffeurs",
+     "datum": "2026-10-07",
+     "samenvatting": "Het Openbaar Ministerie (OM) heeft voor de rechtbank in Zwolle celstraffen tot 6,5 jaar en geldboetes van 50.000 euro geëist tegen drie mannen die verdacht worden van de invoer, het bezit en de handel in 774 kilo cocaïne. Het gaat om een man uit..."
+    },
+    {
+     "titel": "OM eist gevangenisstraf tegen vader die zijn dochter mishandelde",
+     "url": "https://www.om.nl/actueel/nieuws/2026/10/06/om-eist-gevangenisstraf-tegen-vader-die-zijn-dochter-mishandelde",
+     "datum": "2026-10-06",
+     "samenvatting": "“Je hebt mij kapotgemaakt op manieren die niemand aan de buitenkant meteen kan zien. Fysiek. Mentaal. Emotioneel. Maar ik weiger je het laatste stukje ook nog te geven. Je krijgt mijn toekomst niet. Je krijgt niet de rest van mijn leven´. Een..."
+    },
+    {
+     "titel": "Boete van 90.000 euro wegens opzettelijk onjuist doen van belastingaangiften",
+     "url": "https://www.om.nl/actueel/nieuws/2026/10/05/boete-van-90.000-euro-wegens-opzettelijk-onjuist-doen-van-belastingaangiften",
+     "datum": "2026-10-05",
+     "samenvatting": "Het Openbaar Ministerie (OM) legt aan een verdachte een strafbeschikking op met een geldboete van 90.000 euro vanwege het opzettelijk onjuist doen van aangiften inkomstenbelasting over de jaren 2017, 2018 en 2019. Het strafrechtelijk onderzoek..."
+    },
+    {
+     "titel": "Verdachte steekincident Alkmaar blijft langer vast zitten",
+     "url": "https://www.om.nl/actueel/nieuws/2026/10/02/verdachte-steekincident-alkmaar-blijft-langer-vast-zitten",
+     "datum": "2026-10-02",
+     "samenvatting": "De 22-jarige man, die woensdag 30 september jl. is aangehouden na een dodelijk steekincident in Alkmaar, blijft langer vast zitten. Het OM verdenkt hem van moord dan wel doodslag. De rechter-commissaris heeft de bewaring bevolen voor de duur van..."
+    },
+    {
+     "titel": "Agenten niet vervolgd na dodelijk schietincident in Rozenburg",
+     "url": "https://www.om.nl/actueel/nieuws/2026/10/02/rijksrecherche-onderzoek-agenten-hebben-rechtmatig-gehandeld-bij-dodelijk-schietincident-rozenburg",
+     "datum": "2026-10-02",
+     "samenvatting": "De drie politieambtenaren die betrokken waren bij een schietincident op vrijdagavond 7 november 2025 in een woning aan de Ruygeplaat in Rozenburg worden niet strafrechtelijk vervolgd. Op basis van het onderzoek door de Rijksrecherche concludeert..."
+    },
+    {
+     "titel": "Geen strafbare feiten in zaak die bekend staat als ‘videopost student’",
+     "url": "https://www.om.nl/actueel/nieuws/2026/10/02/geen-strafbare-feiten-in-zaak-die-bekend-staat-als-videopost-student",
+     "datum": "2026-10-02",
+     "samenvatting": "Het Openbaar Ministerie start geen verder strafrechtelijk onderzoek naar aanleiding van een videopost op sociale media door een student uit Gaza. Het parket Limburg heeft, in overleg met het Landelijk Parket en de politie, besloten dat er geen..."
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "UK-NCA",
+   "url": "https://www.nationalcrimeagency.gov.uk/news/news-listing?format=rss",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "HTTP Error 404: Not Found"
+  },
+  {
+   "id": "FCA-NEWS",
+   "url": "https://www.fca.org.uk/news/rss.xml",
+   "status": "ok",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": null
+  },
+  {
+   "id": "BAFIN-EN",
+   "url": "https://www.bafin.de/EN/service/rss/_function/rssnewsfeed.xml",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-10-09",
+   "n_in_window": 9,
+   "items": [
+    {
+     "titel": "Fake bank: Bafin warns against offers on the websites vantex-bank(.)com and vantex-bank(.)net.",
+     "url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/EN/Verbrauchermitteilung/unerlaubte/2026/meldung_2026_10_09_vantex_bank_en.html",
+     "datum": "2026-10-09",
+     "samenvatting": "The Federal Financial Supervisory Authority (Bafin) warns against offers on the websites vantex-bank(.)com and vantex-bank(.)net. Contrary to what is stated on the websites, there is no credit institution operating under the name Vantex Bank in either Germany or France."
+    },
+    {
+     "titel": "Deutsche Bank AG: Bafin sets new deadlines for remedying shortcomings",
+     "url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/EN/Massnahmen/60b_KWG_84_WpIG_und_57_GwG/meldung_2026_10_09_deutsche_bank_ag_en.html",
+     "datum": "2026-10-09",
+     "samenvatting": "On 15 September 2026, Bafin set new deadlines for Deutsche Bank AG to remedy shortcomings in its data processing systems. These systems are used to monitor transactions for the purpose of preventing money laundering and terrorist financing."
+    },
+    {
+     "titel": "VW AG: Bafin imposes administrative fine",
+     "url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/EN/Massnahmen/40c_neu_124_WpHG/meldung_2026_10_09_vw_ag_en.html?cms_expanded=true",
+     "datum": "2026-10-09",
+     "samenvatting": "On 1 October 2026, Bafin imposed an administrative fine amounting to €1.2 million on VW AG on the grounds that the company had violated the Market Abuse Regulation (MAR)."
+    },
+    {
+     "titel": "Uniox Gold LLC: evidence indicates no prospectus published",
+     "url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/EN/Verbrauchermitteilung/weitere/2026/meldung_2026_10_08_uniox_gold_llc_en.html",
+     "datum": "2026-10-08",
+     "samenvatting": "The Federal Financial Supervisory Authority (Bafin) has evidence indicating that Uniox Gold LLC, which has its registered office in Wyoming, USA, is offering capital investments referred to as „Goldinvestment 2.000 EUR“, „Goldinvestment 5.000 EUR“, „Goldinvestment 10.000 EUR“ and „Goldinvestment 20."
+    },
+    {
+     "titel": "algocorefx(.)com: Bafin warns consumers about website",
+     "url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/EN/Verbrauchermitteilung/unerlaubte/2026/meldung_2026_09_24_algocorefx_en.html",
+     "datum": "2026-10-08",
+     "samenvatting": "The Federal Financial Supervisory Authority (Bafin) warns consumers about the services offered on the website algocorefx(.)com. Bafin has information that the operators are offering banking business and/or financial services on this website without the required authorisation."
+    },
+    {
+     "titel": "gervestcapitalclub(.)com: Bafin warns consumers about website",
+     "url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/EN/Verbrauchermitteilung/unerlaubte/2026/meldung_2026_10_06_gervestcapitalclub_com_en.html",
+     "datum": "2026-10-08",
+     "samenvatting": "The Federal Financial Supervisory Authority (Bafin) warns consumers about the services offered on the website gervestcapitalclub(.)com. According to information available to Bafin, financial services are being offered on this website without the required authorisation."
+    },
+    {
+     "titel": "Alternatives Broker: Bafin warns consumers about new website alternativeseu(.)com",
+     "url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/EN/Verbrauchermitteilung/unerlaubte/2026/meldung_2026_10_07_alternativeseu_en.html",
+     "datum": "2026-10-07",
+     "samenvatting": "The Federal Financial Supervisory Authority (Bafin) warns consumers about the services offered on the website alternativeseu(.)com. According to information available to Bafin, this website - formerly known as alternatives(.)broker - is being used to offer financial and investment services without t"
+    },
+    {
+     "titel": "ESA and AMLA guidelines that have been adopted or not adopted in Bafin’s administrative practice",
+     "url": "https://www.bafin.de/SharedDocs/Downloads/EN/Aufsichtsrecht/LeitlinienESA/dl_uebernahme-verwaltungspraxis-esa_en.html",
+     "datum": "2026-10-04",
+     "samenvatting": "Here you can find out which guidelines issued by the ESAs and AMLA Bafin has adopted in its administrative practice and which it has not adopted or has not adopted in full. These overviews are updated on an ongoing basis. They list guidelines no later than four months after the German translation ha"
+    },
+    {
+     "titel": "btcx(.)investments: Bafin warns consumers about website",
+     "url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/EN/Verbrauchermitteilung/unerlaubte/2026/meldung_2026_09_29_btcx_investments_en.html",
+     "datum": "2026-10-02",
+     "samenvatting": "The Federal Financial Supervisory Authority (Bafin) warns consumers about the website btcx(.)investments and investigates the operators of the website. According to information available to Bafin, the operators are providing banking business and/or financial services on these websites without the re"
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "OFSI-UK",
+   "url": "https://www.gov.uk/government/organisations/office-of-financial-sanctions-implementation.atom",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-10-09",
+   "n_in_window": 3,
+   "items": [
+    {
+     "titel": "Guidance: UK Financial Sanctions FAQs",
+     "url": "https://www.gov.uk/government/publications/uk-financial-sanctions-faqs",
+     "datum": "2026-10-09",
+     "samenvatting": "OFSI publishes FAQs providing short-form guidance and technical information on financial sanctions."
+    },
+    {
+     "titel": "Guidance: OFSI General Licence - INT/2026/11080040",
+     "url": "https://www.gov.uk/government/publications/ofsi-general-licence-int202611080040",
+     "datum": "2026-10-08",
+     "samenvatting": "Details for OFSI General Licence INT/2026/11080040."
+    },
+    {
+     "titel": "Guidance: OFSI General Licence INT/2026/8893924",
+     "url": "https://www.gov.uk/government/publications/ofsi-general-licence-int20268893924",
+     "datum": "2026-10-07",
+     "samenvatting": "Details for OFSI General Licence INT/2026/8893924, Maritime Mutual Re-Insurance Wind Down General Licence"
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "GFI",
+   "url": "https://gfintegrity.org/feed/",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2025-12-04",
+   "n_in_window": 0,
+   "items": [],
+   "fout": null
+  },
+  {
+   "id": "OCCRP",
+   "url": "https://www.occrp.org/en/feed",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-10-09",
+   "n_in_window": 16,
+   "items": [
+    {
+     "titel": "Montenegro Arrests then Expels Russian 'Rybar' Network Leader, Associates",
+     "url": "https://www.occrp.org/en/news/montenegro-arrests-then-expels-russian-rybar-network-leader-associates",
+     "datum": "2026-10-09",
+     "samenvatting": "Montenegrin authorities crack down on the pro-war Telegram channel over \"hybrid warfare\" fears, confiscating drones and digital equipment while ordering the deportation of five Russian nationals."
+    },
+    {
+     "titel": "Kidnappings and Home Invasions Soar as French Syndicates Extort Crypto",
+     "url": "https://www.occrp.org/en/news/kidnappings-and-home-invasions-soar-as-french-syndicates-extort-crypto",
+     "datum": "2026-10-09",
+     "samenvatting": "French authorities have recorded 77 violent incidents targeting cryptocurrency holders so far in 2026, surpassing the total for all of last year. Prosecutors say increasingly organized networks are recruiting young operatives online to carry out kidnappings, extortion and home invasions."
+    },
+    {
+     "titel": "Lithuanian Minister Condemns Intimidation Campaign against Investigative Reporters",
+     "url": "https://www.occrp.org/en/news/lithuanian-minister-condemns-intimidation-campaign-against-investigative-reporters",
+     "datum": "2026-10-09",
+     "samenvatting": "After news outlet 15min exposed how Bankera’s co-founders allegedly siphoned tens of millions in investor funds into an offshore bank, reporters faced physical tracking, smear campaigns, and a barrage of regulatory complaints."
+    },
+    {
+     "titel": "IKEA Stopped Selling in Russia. But its Former Belarusian Supplier Filled the Gap — With Strikingly Similar Furniture",
+     "url": "https://www.occrp.org/en/news/ikea-stopped-selling-in-russia-but-its-former-belarusian-supplier-filled-the-gap-with-strikingly-similar-furniture",
+     "datum": "2026-10-09",
+     "samenvatting": "Following the 2022 invasion of Ukraine, IKEA pulled out of Russia, as well as Belarus where it had sourced some furniture. The Belarusian factory stopped supplying IKEA, but kept making similar products for export to Russia. One Russian retailer even marketed the furniture as a replacement for IKEA,"
+    },
+    {
+     "titel": "Nearly 50 Arrested as Police Target Western Balkan Drug Network",
+     "url": "https://www.occrp.org/en/news/nearly-50-arrested-as-police-target-western-balkan-drug-network",
+     "datum": "2026-10-08",
+     "samenvatting": "European authorities have dismantled an international drug ring that hid contraband inside commercial freight and allegedly used grenade attacks and homicides to settle internal feuds."
+    },
+    {
+     "titel": "Georgia Scraps Offshore Intermediary in Azerbaijani Power Imports",
+     "url": "https://www.occrp.org/en/news/georgia-scraps-offshore-intermediary-in-azerbaijani-power-imports",
+     "datum": "2026-10-08",
+     "samenvatting": "Tbilisi eliminates secretive offshore intermediaries in power imports from Azerbaijan following years of reporting on inflated costs and connected businessmen."
+    },
+    {
+     "titel": "Police Say Scam Center Busted in PNG Had Moved from Cambodia",
+     "url": "https://www.occrp.org/en/news/police-say-scam-center-busted-in-png-had-moved-from-cambodia",
+     "datum": "2026-10-08",
+     "samenvatting": "Local police believe a suspected cyber fraud ring dismantled in Papua New Guinea last month relocated to the Pacific nation to evade an ongoing crackdown in Cambodia."
+    },
+    {
+     "titel": "U.S. Designates China-Born Businessman in Fiji for \"Significant Corruption\"",
+     "url": "https://www.occrp.org/en/news/us-designates-china-born-businessman-in-fiji-for-significant-corruption",
+     "datum": "2026-10-08",
+     "samenvatting": "Washington barred the suspected organized crime figure and his family from entering the U.S., alleging he acted as a corrupt proxy to advance Beijing's geopolitical agenda in the Pacific."
+    },
+    {
+     "titel": "Azerbaijan Denies Link to Espionage Case Involving Former German Spy Chief",
+     "url": "https://www.occrp.org/en/news/azerbaijan-denies-link-to-espionage-case-involving-former-german-spy-chief",
+     "datum": "2026-10-07",
+     "samenvatting": "Baku rejects claims that former BND chief August Hanning leaked classified secrets to its intelligence services, alleging a “smear campaign” aimed at undermining bilateral ties."
+    },
+    {
+     "titel": "The Uzbek President’s Son-In-Law Secretly Acquired a UAE Passport While Serving as a Top Security Chief",
+     "url": "https://www.occrp.org/en/investigation/the-uzbek-presidents-deputy-security-chief-secretly-acquired-a-uae-passport",
+     "datum": "2026-10-07",
+     "samenvatting": "Leaked records show the Uzbek leader’s son-in-law, Otabek Umarov, covertly acquired Emirati citizenship – an explicit legal breach of his position at the time as deputy head of presidential security. He then went on to obtain millions in luxury Dubai real estate."
+    },
+    {
+     "titel": "Ex-Ukrainian Lawmaker Sent to Trial Over $1.3 Million Fraud Scheme",
+     "url": "https://www.occrp.org/en/news/ex-ukrainian-lawmaker-sent-to-trial-over-13-million-echr-fraud-scheme",
+     "datum": "2026-10-06",
+     "samenvatting": "Ukraine’s anti-corruption agencies have sent a long-running $1.3 million alleged embezzlement and money-laundering scheme to court. Two former government officials accused in the case denied wrongdoing in comments to OCCRP."
+    },
+    {
+     "titel": "Montenegro Moves to Seize Vast Real Estate Empire of Fugitive Crime Boss",
+     "url": "https://www.occrp.org/en/news/montenegro-moves-to-seize-vast-real-estate-empire-of-fugitive-crime-boss",
+     "datum": "2026-10-06",
+     "samenvatting": "Montenegrin prosecutors are seeking the permanent confiscation of over 54,000 square meters of coastal real estate and luxury vehicles linked to a fugitive drug lord, striking a massive financial blow as he continues to evade a half-million-euro bounty."
+    },
+    {
+     "titel": "Cocaine Boatmen Are Being Blown Up By US Airstrikes, But The Drugs Keep Flowing From Colombia",
+     "url": "https://www.occrp.org/en/feature/cocaine-boatmen-are-being-blown-up-by-us-airstrikes-but-the-drugs-keep-flowing-from-colombia",
+     "datum": "2026-10-05",
+     "samenvatting": "In the remote Colombian smuggling hub of La Guajira, locals say a year of U.S. airstrikes has left behind wrecked vessels and bodies, but done little to stop cocaine-laden speedboats from heading out to sea."
+    },
+    {
+     "titel": "Prosecution of Tren de Aragua Accused Mastermind Deemed Complex Case",
+     "url": "https://www.occrp.org/en/news/prosecution-of-tren-de-aragua-accused-mastermind-deemed-complex-case",
+     "datum": "2026-10-05",
+     "samenvatting": "Accused Venezuelan cybercriminal Anibal Alexander Canelón Aguirre will remain behind bars after pleading not guilty to charges of funding the Tren de Aragua gang through a multimillion-dollar ATM fraud scheme."
+    },
+    {
+     "titel": "Leaked Video of Uruguayan Kingpin Triggers Mass Arrests Across Bolivian Justice System",
+     "url": "https://www.occrp.org/en/news/leaked-video-of-uruguayan-kingpin-triggers-mass-arrests-across-bolivian-justice-system",
+     "datum": "2026-10-02",
+     "samenvatting": "Two newly surfaced videos of Uruguayan drug lord Sebastián Marset alleging high-level state protection triggered a law enforcement purge in Bolivia, ending in the arrest of the country’s attorney general and 13 other top officials."
+    },
+    {
+     "titel": "EU Froze Sierra Leone Aid for Harboring Alleged Drug Kingpin, Netherlands Says",
+     "url": "https://www.occrp.org/en/news/eu-sierra-leone-aid-harboring-alleged-kingpin-netherlands",
+     "datum": "2026-10-02",
+     "samenvatting": "Brussels has frozen roughly $20 million in aid to Sierra Leone's 2026 budget, in a move the Dutch justice minister attributed to the country harboring alleged cocaine kingpin Jos Leijdekkers."
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "CORRECTIV",
+   "url": "https://correctiv.org/feed/",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-10-09",
+   "n_in_window": 18,
+   "items": [
+    {
+     "titel": "BND-Skandal: Hanning an ukrainischem Online-Casino beteiligt",
+     "url": "https://correctiv.org/aktuelles/2026/10/09/bnd-skandal-hanning-an-ukrainischem-online-casino-beteiligt/",
+     "datum": "2026-10-09",
+     "samenvatting": "Die BND-Affäre um August Hanning weitet sich aus: Der ehemalige Top-Spion ist nach CORRECTIV-Recherchen auch im Glücksspielgeschäft tätig. Sein Geschäftspartner stand im Zentrum ukrainischer Steuerermittlungen."
+    },
+    {
+     "titel": "Nius-Leak: Wie Julian Reichelt Abonnenten gewinnt",
+     "url": "https://correctiv.org/aktuelles/datenschutz/2026/10/09/nius-leak-wie-julian-reichelt-abonnenten-gewinnt/",
+     "datum": "2026-10-09",
+     "samenvatting": "Im Jahr vier nach Gründung hat Nius 12.000 Abos. Zugewinne verzeichnete das Portal während hitziger Kontroversen, etwa um Daniel Günther, Frauke Brosius-Gersdorf und Wolfram Weimer."
+    },
+    {
+     "titel": "Versilberter Staatsdienst: Die Geschäfte von Deutschlands Ex-Spionen",
+     "url": "https://correctiv.org/aktuelles/sicherheit-und-verteidigung/2026/10/08/versilberter-staatsdienst-die-geschafte-von-deutschlands-ex-spionen-bnd-bfv-nachrichtendienste-hanning/",
+     "datum": "2026-10-08",
+     "samenvatting": "Der verhaftete ehemalige BND-Präsident August Hanning ist nicht der einzige Ex-Spion, der später in die Privatwirtschaft gewechselt ist. Die Bundesregierung schaute dem Treiben lange zu – greift sie jetzt ein?"
+    },
+    {
+     "titel": "Daten-Leak bei Nius – Nutzerdaten, Finanzen und Redaktionssystem liegen ungeschützt im Netz",
+     "url": "https://correctiv.org/aktuelles/datenschutz/2026/10/08/daten-leak-bei-nius-nutzerdaten-finanzen-und-redaktionssystem-liegen-ungeschuetzt-im-netz/",
+     "datum": "2026-10-08",
+     "samenvatting": "Ein Datenleak legt das Innenleben des Nachrichtenportals Nius frei: Einsehbar sind Adressen von Lesern, Zahlen zu Abo-Einnahmen und umfassende Auszüge aus dem Redaktionssystem."
+    },
+    {
+     "titel": "Hannings Verbindungen nach Baku",
+     "url": "https://correctiv.org/aktuelles/international/2026/10/07/hannings-verbindungen-nach-baku/",
+     "datum": "2026-10-07",
+     "samenvatting": "Nach der Festnahme von Ex-BND-Präsident Hanning wird nach und nach das Ausmaß des Spionage-Verdachtsfalls deutlich. Aserbaidschan ist ein Land, dem er Informationen geliefert haben soll. Zu dem autokratischen Regime hat Hanning nach Recherchen von CORRECTIV eine besondere Beziehung."
+    },
+    {
+     "titel": "Rechenzentren boomen – Bundesregierung will Umweltvorgaben lockern",
+     "url": "https://correctiv.org/functional-categories/cur-lenseu_nl/2026/10/08/rechenzentren-boomen-bundesregierung-will-umweltvorgaben-lockern/",
+     "datum": "2026-10-08",
+     "samenvatting": "In Deutschland entstehen immer mehr Rechenzentren. CORRECTIV zeigt: Viele stehen ausgerechnet dort, wo Wasser im Sommer knapp wird. Ihre Abwärme verpufft meist ungenutzt. Trotzdem will die Bundesregierung die Umweltvorgaben für die Branche lockern."
+    },
+    {
+     "titel": "„Akten des Missbrauchs“ jetzt auch im Stream",
+     "url": "https://correctiv.org/in-eigener-sache/2026/10/08/akten-des-missbrauchs-jetzt-auch-im-stream/",
+     "datum": "2026-10-08",
+     "samenvatting": "„Akten des Missbrauchs“ ist ab sofort auch online verfügbar. Der Dokumentarfilm kann nun über Vimeo OTT ausgeliehen und gestreamt werden."
+    },
+    {
+     "titel": "Sachsen-Anhalt: Grüne und SPD kritisieren Aussagen von Schulze zu Kooperation mit AfD scharf",
+     "url": "https://correctiv.org/aktuelles/politik-2/2026/10/06/sachsen-anhalt-gruene-und-spd-kritisieren-aussagen-von-schulze-zu-kooperation-mit-afd-scharf/",
+     "datum": "2026-10-06",
+     "samenvatting": "Sachsen-Anhalts Noch-CDU-Ministerpräsident Sven Schulze will künftig im Einzelfall entscheiden, wie seine Fraktion mit AfD-Anträgen im Magdeburger Landtag umgeht. Die anderen Fraktionen im Landtag äußern sich auf CORRECTIV-Anfrage entrüstet – auch aus Teilen der CDU kommt Kritik."
+    },
+    {
+     "titel": "Invest in Germany Summit: Wirtschaftsministerium plant fünf Millionen Euro für Finanzgipfel",
+     "url": "https://correctiv.org/aktuelles/wirtschaft/2026/10/07/invest-in-germany-summit-5-millionen-euro-fuer-finanzgipfel/",
+     "datum": "2026-10-07",
+     "samenvatting": "Ende Oktober lädt die Bundesregierung internationale Finanzakteure zu einem exklusiven Gipfel nach Berlin. Die Teilnehmerliste bleibt unter Verschluss, die Presse hat nur eingeschränkten Zugang. Die Kosten sind enorm, wie eine Antwort der Bundesregierung auf eine Anfrage der Linken zeigt, die CORREC"
+    },
+    {
+     "titel": "Früherer BND-Chef Hanning festgenommen: Geschäfte mit fremden Mächten",
+     "url": "https://correctiv.org/aktuelles/sicherheit-und-verteidigung/2026/10/06/bnd-chef-hanning-festgenommen-geschaefte-russland-china/",
+     "datum": "2026-10-06",
+     "samenvatting": "Der ehemalige BND-Präsident August Hanning wurde wegen des Verdachts auf Spionage festgenommen. Nach CORRECTIV-Recherchen handelte er über mehrere Firmen jahrelang mit Informationen – unter anderem mit Russland und China."
+    },
+    {
+     "titel": "Entwicklungsministerin bei CORRECTIV: „Bleiben verlässlicher Partner“",
+     "url": "https://correctiv.org/aktuelles/politik-2/2026/10/06/entwicklungsministerin-bei-correctiv-bleiben-verlaesslicher-partner/",
+     "datum": "2026-10-06",
+     "samenvatting": "Entwicklungsministerin Reem Alabali Radovan (SPD) hat sich im Publix den CORRECTIV-Fragen zum gekürzten Etat ihres Hauses gestellt. Und sich dabei klar gegen die AfD positioniert."
+    },
+    {
+     "titel": "Lobbyismus: Grüne reichen Beschwerde gegen Wirtschaftsministerium ein",
+     "url": "https://correctiv.org/aktuelles/klimawandel/2026/10/06/lobbyismus-gruene-reichen-beschwerde-gegen-wirtschaftsministerium-ein/",
+     "datum": "2026-10-06",
+     "samenvatting": "Das Wirtschaftsministerium verschleiert seinen Austausch mit der Gaslobby zum Gebäudemodernisierungsgesetz. Die Grünen haben deshalb Beschwerde eingereicht."
+    },
+    {
+     "titel": "Jugendredaktion Salon5: „So etwas verlernt man nicht“",
+     "url": "https://correctiv.org/in-eigener-sache/2026/10/05/jugendredaktion-salon5-so-etwas-verlernt-man-nicht/",
+     "datum": "2026-10-05",
+     "samenvatting": "Salon5 wirkt über die Jugendredaktion hinaus. Die Evaluation zeigt: Wer hier Journalismus selbst macht, gewinnt Selbstvertrauen, lernt Quellen kritisch zu hinterfragen und nimmt diese Fähigkeiten mit ins Leben und gibt sie an andere weiter."
+    },
+    {
+     "titel": "Hape Kerkelings Rede im Thüringer Landtag",
+     "url": "https://correctiv.org/aktuelles/debatte-um-afd-verbot/2026/10/06/hape-kerkelings-rede-im-thueringer-landtag/",
+     "datum": "2026-10-06",
+     "samenvatting": "„Wer nicht verantwortungsvoll mit der Geschichte umgeht, darf niemals Verantwortung für die Zukunft Deutschlands übernehmen“. Im Thüringer Landtag fand Hape Kerkeling deutliche Worte für ein AfD-Verbotsverfahren. Er sprach über die Geschichte seiner Familie, die Verantwortung der Politik und die Gef"
+    },
+    {
+     "titel": "Trotz Vetternwirtschafts-Skandal: Tobias Rausch ist der erste Landtagspräsident aus der AfD",
+     "url": "https://correctiv.org/aktuelles/kandidierenden-check/2026/10/06/tobias-rausch-afd-landtagspraesident-ueberblick/",
+     "datum": "2026-10-06",
+     "samenvatting": "Tobias Rausch ist der erste Landtagspräsident, den die AfD stellt. Eine zentrale Figur der AfD-Vetternwirtschaft in Sachsen-Anhalt ist so nun zu neuer Macht gekommen – ein Überblick."
+    },
+    {
+     "titel": "Bekommt Berlin unter einer Linken-Regierung kein Geld mehr?",
+     "url": "https://correctiv.org/aktuelles/politik-2/2026/10/02/bekommt-berlin-unter-einer-linken-regierung-kein-geld-mehr/",
+     "datum": "2026-10-02",
+     "samenvatting": "Nach dem Wahlsieg in Berlin entfachte Söder eine Debatte über den Länderfinanzausgleich. CORRECTIV geht der Frage nach, wie haltbar die Forderungen sind und warum eine möglichen Linken-Regierung für so viel Empörung sorgt."
+    },
+    {
+     "titel": "Kammergericht gibt CORRECTIV Recht: Dritter Erfolg gegen Ulrich Vosgerau",
+     "url": "https://correctiv.org/in-eigener-sache/2026/10/02/kammergericht-gibt-correctiv-recht-dritter-erfolg-gegen-ulrich-vosgerau/",
+     "datum": "2026-10-02",
+     "samenvatting": "Pressefreiheit gestärkt: Kammergericht bestätigt Berichterstattung über Äußerung von Ulrich Vosgerau in der Recherche „Geheimplan gegen Deutschland\"."
+    },
+    {
+     "titel": "Nachts bei seinem Trainer",
+     "url": "https://correctiv.org/aktuelles/gewalt-im-sport/2026/10/07/die-perfide-strategie-eines-ex-union-trainers/",
+     "datum": "2026-10-07",
+     "samenvatting": "Ein ehemaliger Jugendtrainer von Union Berlin nutzt die Strahlkraft seines Vereins aus und missbraucht zwei Kinder. Mit CORRECTIV sprechen ihre Eltern erstmals öffentlich über die Taten."
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "ICIJ",
+   "url": "https://www.icij.org/feed/",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-10-09",
+   "n_in_window": 5,
+   "items": [
+    {
+     "titel": "Tunisian court dismisses case to dissolve publisher of ICIJ partner Inkyfada",
+     "url": "https://www.icij.org/news/2026/10/tunisian-court-dismisses-case-to-dissolve-publisher-of-icij-partner-inkyfada/",
+     "datum": "2026-10-09",
+     "samenvatting": "Despite the court victory, Inkyfada and its parent company Al Khatt still struggle to recover funds frozen by authorities."
+    },
+    {
+     "titel": "Five years after the Pandora Papers, transparency laws lose their teeth",
+     "url": "https://www.icij.org/investigations/pandora-papers/five-years-after-the-pandora-papers-transparency-laws-lose-their-teeth/",
+     "datum": "2026-10-08",
+     "samenvatting": "Reforms promised swiftly after ICIJ’s investigation have fallen short in New York and beyond."
+    },
+    {
+     "titel": "How Hungary’s richest man funneled millions into Orbán’s propaganda machine",
+     "url": "https://www.icij.org/news/2026/10/how-hungarys-richest-man-funneled-millions-into-orbans-propaganda-machine/",
+     "datum": "2026-10-07",
+     "samenvatting": "Since 2022, companies belonging to Lőrinc Mészáros, who amassed a fortune from government contracts, donated more than $13 million to an online mouthpiece of the Fidesz party, a new Direkt36 investigation reveals."
+    },
+    {
+     "titel": "New documents show how a retail chain’s sales practices helped put guns on US streets",
+     "url": "https://www.icij.org/news/2026/10/new-documents-show-how-a-retail-chains-sales-practices-helped-put-guns-on-u-s-streets/",
+     "datum": "2026-10-05",
+     "samenvatting": "The public release of the records is part of a legal settlement with a Wisconsin-based company accused of negligence for selling guns that were later used in crimes."
+    },
+    {
+     "titel": "WATCH: Inside the China Capital investigation — a live panel",
+     "url": "https://www.icij.org/investigations/china-capital/watch-inside-the-china-capital-investigation-a-live-panel/",
+     "datum": "2026-10-02",
+     "samenvatting": "A behind-the-scenes look at ICIJ's investigation into the world's biggest bank, with insights from ICIJ’s reporter and an expert on China's lending practices."
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "BELLINGCAT",
+   "url": "https://www.bellingcat.com/feed/",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-10-06",
+   "n_in_window": 1,
+   "items": [
+    {
+     "titel": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds",
+     "url": "https://www.bellingcat.com/news/2026/10/06/dafs-india-rss-donations/",
+     "datum": "2026-10-06",
+     "samenvatting": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. US non-profits whose founding leaders or organisations have been associated with India’s controversial Rashtriya Swayamsevak Sangh (RSS) – or initiatives the Hindu nationalist group has endorsed – rec"
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "EIA-INTL",
+   "url": "https://eia-international.org/feed/",
+   "status": "empty",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "feed parseert maar bevat 0 entries"
+  },
+  {
+   "id": "RUSI-CFCS",
+   "url": "https://www.rusi.org/rss/latest-publications.xml",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-10-08",
+   "n_in_window": 9,
+   "items": [
+    {
+     "titel": "China is Not Just Claiming the South China Sea. It is Learning to Govern It",
+     "url": "https://www.rusi.org/explore-our-research/publications/commentary/china-not-just-claiming-south-china-sea-it-learning-govern-it",
+     "datum": "2026-10-08",
+     "samenvatting": "Beijing claims a Philippine resupply mission to Second Thomas Shoal was illegal, lacking approval from Beijing, China has shifted to treating this as space it administers."
+    },
+    {
+     "titel": "Recording: Cyber Espionage in the Age of US-China Competition",
+     "url": "https://www.rusi.org/members-event-recordings/recording-cyber-espionage-age-us-china-competition",
+     "datum": "2026-10-07",
+     "samenvatting": "A conversation with Dr Ahana Datta Fasel on her new book, Full Stack Spies: Cyber Espionage in the Age of US-China Competition."
+    },
+    {
+     "titel": "What Joint Exercises Assume About How Crises Behave",
+     "url": "https://www.rusi.org/explore-our-research/publications/rusi-newsbrief/what-joint-exercises-assume-about-how-crises-behave",
+     "datum": "2026-10-07",
+     "samenvatting": "Joint exercises assume crises arrive singly, are recognisable and end on schedule. Compounded crises break all three, and readiness reporting cannot detect it."
+    },
+    {
+     "titel": "In Helping Ukraine, We Protect Ourselves",
+     "url": "https://www.rusi.org/explore-our-research/publications/commentary/helping-ukraine-we-protect-ourselves",
+     "datum": "2026-10-07",
+     "samenvatting": "Supporting Ukraine is self-interest, not charity: Russia threatens democracies well beyond Europe, and Ukraine’s battlefield innovation and civilian resilience hold lessons for the West."
+    },
+    {
+     "titel": "The Putin Tax and the Cost of Russian Hostility to Britain",
+     "url": "https://www.rusi.org/explore-our-research/publications/commentary/putin-tax-and-cost-russian-hostility-britain",
+     "datum": "2026-10-06",
+     "samenvatting": "Britain repeatedly uses sanctions to impose costs on Russia. But what does Russian hostility cost Britain? A new report asks a question government must answer."
+    },
+    {
+     "titel": "Episode 130: Radioactive Russian Drones - A Conversation with Vitaly Shevchenko",
+     "url": "https://www.rusi.org/podcasts/global-security-briefing/episode-130-radioactive-russian-drones-conversation-vitaly-shevchenko",
+     "datum": "2026-10-06",
+     "samenvatting": "Vitaly Shevchenko of BBC Monitoring joins Natia Seskuria to explore the implications of a radiation warning found on a downed Russian drone."
+    },
+    {
+     "titel": "Recording: Germany Rearmed: The Return of War and the End of Illusions",
+     "url": "https://www.rusi.org/members-event-recordings/recording-germany-rearmed-return-war-and-end-illusions",
+     "datum": "2026-10-05",
+     "samenvatting": "Author Liana Fix examines Germany's historic return to military power and what it means for European security as Russian aggression intensifies and confidence in US readiness to defend Europe weakens."
+    },
+    {
+     "titel": "Episode 2: What Does a Return to Realpolitik Mean? With Professor John Bew",
+     "url": "https://www.rusi.org/podcasts/talking-strategy/episode-2-what-does-return-realpolitik-mean-professor-john-bew",
+     "datum": "2026-10-05",
+     "samenvatting": "What is realpolitik, and why is the world said to be returning to it? Professor John Bew CMG traces the idea back to its origins."
+    },
+    {
+     "titel": "Development Aid will be Critical to Securing Ukraine",
+     "url": "https://www.rusi.org/explore-our-research/publications/commentary/development-aid-will-be-critical-securing-ukraine",
+     "datum": "2026-10-05",
+     "samenvatting": "Ukraine needs weapons to win the war, but Europe will need a wider tool set to secure a peace."
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "CHAINALYSIS",
+   "url": "https://www.chainalysis.com/blog/feed/",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-10-09",
+   "n_in_window": 2,
+   "items": [
+    {
+     "titel": "UK Targets Cryptomus, Heleket, TokenSpot in New Russian Sanctions",
+     "url": "https://www.chainalysis.com/blog/uk-sanctions-cryptomus-heleket-tokenspot/",
+     "datum": "2026-10-09",
+     "samenvatting": "Summary The UK’s latest sanctions target the broader infrastructure supporting Russia’s wartime economy. The UK designated crypto payment processors Cryptomus… The post UK Targets Cryptomus, Heleket, TokenSpot in New Russian Sanctions appeared first on Chainalysis ."
+    },
+    {
+     "titel": "East Asia Crypto Adoption Report: South Korea’s AI Trade Comes to Crypto",
+     "url": "https://www.chainalysis.com/blog/eastern-asia-crypto-adoption-2026/",
+     "datum": "2026-10-05",
+     "samenvatting": "Summary South Korea leads the region with a $449.1 billion crypto economy, followed by Japan ($228.3 billion), Hong Kong ($192.2… The post East Asia Crypto Adoption Report: South Korea’s AI Trade Comes to Crypto appeared first on Chainalysis ."
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "ELLIPTIC",
+   "url": "https://www.elliptic.co/blog/rss.xml",
+   "status": "error",
+   "laatste_pubdate_gezien": null,
+   "n_in_window": 0,
+   "items": [],
+   "fout": "HTTP Error 404: Not Found"
+  },
+  {
+   "id": "GI-TOC",
+   "url": "https://globalinitiative.net/feed/",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-10-09",
+   "n_in_window": 7,
+   "items": [
+    {
+     "titel": "USP signs cooperation agreement with the Global Initiative Against Transnational Organized Crime (GI-TOC) to promote academic collaboration on illicit markets and organized crime",
+     "url": "https://globalinitiative.net/announcements/usp-gitoc-academic-cooperation/",
+     "datum": "2026-10-09",
+     "samenvatting": "The post USP signs cooperation agreement with the Global Initiative Against Transnational Organized Crime (GI-TOC) to promote academic collaboration on illicit markets and organized crime appeared first on Global Initiative ."
+    },
+    {
+     "titel": "Iran’s illicit economies after six months of war",
+     "url": "https://globalinitiative.net/analysis/irans-illicit-economies-after-six-months-of-war/",
+     "datum": "2026-10-09",
+     "samenvatting": "The post Iran’s illicit economies after six months of war appeared first on Global Initiative ."
+    },
+    {
+     "titel": "Corruption and organized crime in Moldova",
+     "url": "https://globalinitiative.net/analysis/corruption-organized-crime-moldova/",
+     "datum": "2026-10-08",
+     "samenvatting": "The post Corruption and organized crime in Moldova appeared first on Global Initiative ."
+    },
+    {
+     "titel": "Fentanyl and synthetic drugs monitor",
+     "url": "https://globalinitiative.net/analysis/fentanyl-monitor-north-america/",
+     "datum": "2026-10-07",
+     "samenvatting": "The post Fentanyl and synthetic drugs monitor appeared first on Global Initiative ."
+    },
+    {
+     "titel": "Will the Crime Congress declaration prove to be more than words on paper?",
+     "url": "https://globalinitiative.net/analysis/abu-dhabi-declaration-organized-crime/",
+     "datum": "2026-10-07",
+     "samenvatting": "The post Will the Crime Congress declaration prove to be more than words on paper? appeared first on Global Initiative ."
+    },
+    {
+     "titel": "Joburglary: Assessing the crime–council ecosystem in the City of Johannesburg",
+     "url": "https://globalinitiative.net/analysis/joburglary-assessing-the-crime-council-ecosystem-in-the-city-of-johannesburg/",
+     "datum": "2026-10-06",
+     "samenvatting": "The post Joburglary: Assessing the crime–council ecosystem in the City of Johannesburg appeared first on Global Initiative ."
+    },
+    {
+     "titel": "Targeted killings and South Africa’s 2026 local government elections",
+     "url": "https://globalinitiative.net/analysis/targeted-killings-south-africa-2026-local-government-elections/",
+     "datum": "2026-10-02",
+     "samenvatting": "The post Targeted killings and South Africa’s 2026 local government elections appeared first on Global Initiative ."
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "INSIGHTCRIME",
+   "url": "https://insightcrime.org/feed/",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-10-08",
+   "n_in_window": 4,
+   "items": [
+    {
+     "titel": "Two Years On, the Sinaloa Cartel War Changes Shape | The InSight Take",
+     "url": "https://insightcrime.org/uncategorized/sinaloa-cartel-war-culiacan-two-years/",
+     "datum": "2026-10-08",
+     "samenvatting": "Two Years On, the Sinaloa Cartel War Changes Shape | The InSight Take Two years after Ismael Zambada Garcia, alias \"El Mayo,\" was handed over to US authorities in what was deemed a traitorous act by one faction against another, the war between the Chapitos and the Mayiza factions of the Sinaloa Cart"
+    },
+    {
+     "titel": "Social Media is Fertile Ground for Illegal Mining Players in Peru",
+     "url": "https://insightcrime.org/news/social-media-is-fertile-ground-for-illegal-mining-players-in-peru/",
+     "datum": "2026-10-06",
+     "samenvatting": "Social Media is Fertile Ground for Illegal Mining Players in Peru Posing as a would-be miner, InSight Crime answered a Facebook advert offering land with mining permits in Peru's Madre de Dios region. The permits are meant to help informal miners go legal, but experts say they are often used as a fr"
+    },
+    {
+     "titel": "R1’s Arrest Exposes the CJNG’s Network of ‘R’ Commanders",
+     "url": "https://insightcrime.org/news/r1s-arrest-exposes-the-cjngs-network-of-r-commanders/",
+     "datum": "2026-10-05",
+     "samenvatting": "R1’s Arrest Exposes the CJNG’s Network of ‘R’ Commanders After the murder of a mayor in central Mexico and an influencer in a neighboring state, Mexican authorities say they have their suspect in custody: Ramón Álvarez Ayala, alias \"R1,\" the alleged leader of the R’s, part of Mexico’s feared CJNG. T"
+    },
+    {
+     "titel": "The Garífuna’s Fight for Land on Honduras’ Cocaine Coast",
+     "url": "https://insightcrime.org/news/garifunas-fight-land-honduras-cocaine-coast/",
+     "datum": "2026-10-02",
+     "samenvatting": "The Garífuna’s Fight for Land on Honduras’ Cocaine Coast The overlapping presence of drug trafficking and powerful economic interests remains one of the main obstacles to implementing the IACtHR rulings in Punta Piedra and three other Garífuna communities. The state, meanwhile, has shifted from fail"
+    }
+   ],
+   "fout": null
+  },
+  {
+   "id": "TAXJUSTICE",
+   "url": "https://taxjustice.net/feed/",
+   "status": "ok",
+   "laatste_pubdate_gezien": "2026-09-11",
+   "n_in_window": 0,
+   "items": [],
+   "fout": null
+  }
+ ]
+}
